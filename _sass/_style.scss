@@ -11,7 +11,7 @@ body {
   box-sizing: content-box;
   font-family: $font-family;
   margin: 0 auto;
-  line-height: 1;
+  line-height: 1em;
   padding: 4vh 6vw;
   overflow-x: hidden;
   color: $color-text;
@@ -145,13 +145,18 @@ nav {
   padding: 1em;
 }
 
-.sidenote h3 {
+.sidenote {
+  background-color:black;
+  border: 1px solid white;
+  padding: 1em;
+  padding-top:0em;
   font-family:monospace;
+  font-size:1.1em;
 }
 
 .backlink-box {
   border: 1px solid orange;
-  background-color:black;
+  background-color: black;
   border-radius: 4px;
   padding:1em;
 }
