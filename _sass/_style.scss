@@ -90,6 +90,9 @@ h6 {
 a {
   color: $color-primary;
   text-decoration:none;
+  &.internal-link{
+    background-color:none;
+  }
   &:hover {
     text-decoration:underline;
   }
@@ -99,6 +102,7 @@ a {
     font-size: 0.7em;
     content: "↗";
     color: #aaaaaa;
+    text-decoration:none;
   }
   &.internal-link:after {
     content: "";
@@ -128,6 +132,8 @@ nav {
 }
 
 .backlink-box {
+  background-color: grey;
+  padding:1em;
 }
 
 code {
