@@ -23,9 +23,9 @@ body {
   }
 }
 
-main {
-border: 2px double white;
-  padding: 2em
+title, .notes-entry-container {
+border: 2px solid white;
+  padding: 2em;
 }
 
 time {
@@ -56,8 +56,10 @@ blockquote {
   padding: 1.5em;
   margin: 0;
   font-size: 0.88em;
+  font-family: serif;
   background: $color-box-background;
   border-radius: $border-radius;
+  border: 1px solid white;
 
   p {
     margin: 0;
@@ -87,6 +89,11 @@ h6 {
 h1 { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold;}
 h2 {text-transform:uppercase; text-align:center;font-weight:bold;}
 h3 {font-weight:bold;}
+
+.border {
+  border:1px solid white;
+  padding: 2em;
+}
 
 a {
   color: $color-primary;
@@ -132,22 +139,31 @@ nav {
   }
 }
 
+.sidenote {
+  background-color:black;
+  border: 1px solid white;
+  padding: 1em;
+}
+
+.sidenote h3 {
+  font-family:monospace;
+}
+
 .backlink-box {
   border: 1px solid orange;
+  background-color:black;
   border-radius: 4px;
   padding:1em;
 }
 
 code {
   color:slateblue;
-  padding: 0.1em 0.2em;
+  font-family:monospace;
 }
 
 .invalid-link {
-  color: red;
+  color: pink;
   cursor: help;
-  padding: 0 0.1em;
-}
 
 .invalid-link-brackets {
   color: red;
