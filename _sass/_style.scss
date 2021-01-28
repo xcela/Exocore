@@ -23,25 +23,27 @@ body {
   }
 }
 
-#notes-entry-container, graph {
+#notes-entry-container, .border {
 border: 2px solid white;
   padding: 2em;
 }
 
+graph{
+  margin:0em;
+}
 time {
   display: block;
   color: $color-subtext;
-  margin: 0.5em 0 1em;
-  font-size:1em;
+  font-size:1.2em;
   text-align:center;
   font-family:monospace;
 }
 
+license {margin: 2em}
+
 footer {
-  margin: 2em 0;
   font-size: 0.8em;
   color: $color-text;
-  padding-top: 1em;
   text-align:center;
 }
 
@@ -69,11 +71,7 @@ blockquote {
 }
 
 hr {
-  width: 100%;
-  border: 0;
-  height: 1px;
-  margin: 1.5em 0;
-  color:white;
+  margin:1.5em;
 }
 
 h1,
@@ -94,10 +92,6 @@ h3 {font-weight:bold; font-size:1em;}
 h4 {font-weight:normal; font-size:1em; text-decoration:underline;}
 h4 {font-weight:normal; font-size:1em; }
 
-.border {
-  border:1px solid white;
-  padding: 2em;
-}
 
 a {
   color: $color-primary;

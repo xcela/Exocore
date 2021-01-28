@@ -3,15 +3,15 @@ layout: default
 ---
 
 <article>
-  <div>
-    <a href="{{ page.url }}"><h1>{{ page.title }}</h1></a>
+  <div class="border">
+    <h1>{{ page.title }}</h1>
   </div>
 
   <div id="notes-entry-container">
     <content>
       {{ content }}
     </content>
-
+    <side>
       <div class="sidenote">
       <h3 style="margin-bottom: 1em">Notes mentioning this note</h3>
       {% if page.backlinks.size > 0 %}
