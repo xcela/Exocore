@@ -23,11 +23,6 @@ body {
   }
 }
 
-title, #notes-entry-container, graph, time, license {
-border: 2px solid white;
-  padding: 2em;
-}
-
 time {
   display: block;
   color: $color-subtext;
