@@ -53,10 +53,11 @@ img {
 }
 
 blockquote {
-  padding: 1.5em;
+  padding: 1em;
   margin: 0;
-  font-size: 0.88em;
+  font-size: 1em;
   font-family: serif;
+    font-style: italic;
   background: $color-box-background;
   border-radius: $border-radius;
   border: 1px solid white;
@@ -159,6 +160,7 @@ nav {
   background-color: black;
   border-radius: 4px;
   padding:1em;
+  line-height:1em;
 }
 
 code {
