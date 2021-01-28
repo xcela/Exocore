@@ -20,16 +20,22 @@ body {
   background-color:black;
   @media (min-width: 820px) {
     font-size: 1.2rem;
-    margin:1em;
   }
+}
+
+nav {
+ background-color:white;
+ color:blue;
+ font-weight:normal; 
 }
 
 #notes-entry-container, .border {
 border: 2px solid white;
   padding: 2em;
-   @media (min-width: 700px) {
+   @media (max-width: 700px) {
     border:none;
     padding:none;
+    margin:1em;
   }
 }
 
