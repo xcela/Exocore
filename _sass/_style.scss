@@ -23,6 +23,11 @@ body {
   }
 }
 
+#notes-entry-container, graph {
+border: 2px solid white;
+  padding: 2em;
+}
+
 time {
   display: block;
   color: $color-subtext;
