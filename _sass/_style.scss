@@ -20,12 +20,17 @@ body {
   background-color:black;
   @media (min-width: 820px) {
     font-size: 1.2rem;
+    margin:1em;
   }
 }
 
 #notes-entry-container, .border {
 border: 2px solid white;
   padding: 2em;
+   @media (min-width: 700px) {
+    border:none;
+    padding:none;
+  }
 }
 
 graph{
@@ -39,9 +44,9 @@ time {
   font-family:monospace;
 }
 
-license {margin: 2em}
+license {margin-top: 2em;}
 
-footer {
+.footer-nav {
   font-size: 0.8em;
   color: $color-text;
   text-align:center;
