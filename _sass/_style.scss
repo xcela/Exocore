@@ -28,6 +28,11 @@ border: 2px double white;
   padding: 2em
 }
 
+.sidenote {
+  border: 1px solid orange;
+  background-color:black;
+}
+
 time {
   display: block;
   color: $color-subtext;
@@ -120,7 +125,8 @@ nav {
 }
 
 .backlink-box {
-  background: $color-box-background;
+  background: blue;
+  color:white;
   padding: 1em;
   border-radius: $border-radius;
 }
