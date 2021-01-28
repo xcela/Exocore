@@ -31,6 +31,8 @@ border: 2px double white;
 .sidenote {
   border: 1px solid orange;
   background-color:black;
+  padding: 2em;
+  padding-top: 0em;
 }
 
 time {
@@ -87,6 +89,7 @@ h6 {
 
 a {
   color: $color-primary;
+  text-decoration:none;
   &:hover {
     text-decoration:underline;
   }
