@@ -27,6 +27,12 @@ nav {
  background-color:white;
  color:blue;
  font-weight:normal; 
+ padding:1em;
+ margin: 1em 0 1em;
+}
+
+nav a {
+  color:blue;
 }
 
 #notes-entry-container, .border {
@@ -129,10 +135,6 @@ a {
 *:focus {
   background: white !important;
   color: black !important;
-}
-
-nav {
-  margin: 1em 0 3em;
 }
 
 #notes-entry-container {

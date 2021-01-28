@@ -3,10 +3,10 @@ layout: default
 ---
 
 <article>
-  <div class="border" style="padding:1em; padding-top:0.1em margin-bottom:2em;">
+  <div class="border" style="padding:1em; padding-top:0.1em; margin-bottom:1em;">
     <h1>{{ page.title }}</h1>
   </div>
-
+<hr>
   <div id="notes-entry-container">
     <content>
       {{ content }}
@@ -39,9 +39,9 @@ layout: default
 
 <hr>
 
-<div class="border">
+<div class="border" style="padding-top:0.2em;">
 <graph>
-<h2>Graph View:</h2>
+<h2 style="margin:1em;">Graph View:</h2>
 
 {% include notes_graph.html %}
 
