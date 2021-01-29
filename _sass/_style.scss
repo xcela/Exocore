@@ -60,7 +60,10 @@ time {
 }
 
 license {
-text-align:center; width:100%
+  display: block;
+  color: $color-subtext;
+  text-align:center;
+  font-family:monospace;
 }
 
 img {
@@ -168,6 +171,7 @@ nav a {
 code {
   color:lightgray;
   font-family:monospace;
+  font-size:1.1em;
 }
 
 .invalid-link {
