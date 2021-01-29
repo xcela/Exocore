@@ -5,6 +5,7 @@ id: home
 permalink: /
 ---
 ---
+layout: page
 title: Exocore: Public Markdown Exocortex
 ---
 
