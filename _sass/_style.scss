@@ -57,7 +57,9 @@ time {
   text-align:center;
 }
 
-license {text-align:center; margin:1em;}
+license {
+text-align:center; width:100%
+}
 
 img {
   max-width: 100%;
@@ -99,7 +101,7 @@ h6 {
 
 h2 {margin-top:1em;}
 
-title { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold;}
+.title { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin-bottom:0em;}
 h1 {text-transform:uppercase; text-align:center;font-weight:bold;}
 h2 {text-transform:uppercase;font-weight:bold; font-size:1em; margin:0em; text-align:left}
 h3 {text-transform:none;font-weight:normal; font-size:1em; text-decoration:underline;text-align:left}
