@@ -101,9 +101,9 @@ h2 {margin-top:1em;}
 
 title { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold;}
 h1 {text-transform:uppercase; text-align:center;font-weight:bold;}
-h2 {text-transform:uppercase;font-weight:bold; font-size:1em; margin:0em; text-align:center}
-h3 {text-transform:none;font-weight:normal; font-size:1em; text-decoration:underline;text-align:center}
-h4 {text-transform:none;font-weight:normal; font-size:1em; text-align:center}
+h2 {text-transform:uppercase;font-weight:bold; font-size:1em; margin:0em; text-align:left}
+h3 {text-transform:none;font-weight:normal; font-size:1em; text-decoration:underline;text-align:left}
+h4 {text-transform:none;font-weight:normal; font-size:1em; text-align:left}
 
 
 a {
@@ -157,7 +157,7 @@ nav a {
 }
 
 code {
-  color:slateblue;
+  color:lightgray;
   font-family:monospace;
 }
 
