@@ -2,9 +2,9 @@
 title: Step-by-step Tutorial
 ---
 
-You can set up a [[public exocortex]] of your own in a few minutes, and have your own personal corner of the Internet where you’ll seed and grow ideas.
+You can set up a public [[exocortex]] of your own in a few minutes, and have your own personal corner of the Internet where you’ll seed and grow ideas.
 
-If you’re familiar with [[Markdown]] and/or HTML, you’ll be right at home, as that’s how your notes will be formatted.
+All posts are formatted in the simple, no-code [[Markdown]] syntax so you can focus purely on writing. Installation takes less than 5 minutes.
 
 The end result will look similar to this:
 
@@ -51,8 +51,10 @@ Once that’s done, your site will be available on the Internet via a generic Ne
 
 ### Setup on Subdomain
 
----
+## Usage
 
-That's everything you need, your site is now live and posts are ready to be edited and written.
+That's everything you need, your site is now live and posts are ready to be edited and written in [[Markdown]] format, uploaded to the `_notes` folder, with site pages uploaded to `_pages`. Follow up with more details on [[making posts]].
 
-Follow up with more details on [[writing posts]] and [[site customization]], and read about [[updating files on Github]] if you were new to Github.
+If you were new to Github, make sure to read the section on [[updating files on Github]] to push your changes to your live site when they're ready.
+
+You may also consider [[site customization]], [[alternative setup on Neocities]] and [[self-hosting your Exocore]].
