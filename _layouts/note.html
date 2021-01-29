@@ -27,22 +27,21 @@ layout: default
       {% endfor %}
       </div>
       {% else %}
-      <div style="font-size: 0.9em">
+      <div style="font-size: 0.9em; text-align:center">
         <p>
-          There are no pages linking here.
+          No pages linking here.
         </p>
       </div>
       {% endif %}
       </div>
-  </side>
-</article>
+ 
 
-<div class="border" style="padding-top:0.2em;  max-width:28em; margin: 0 auto; margin-top:1em;
-">
 <graph>
 <h1 style="margin:1em;">Graph View:</h1>
 
 {% include notes_graph.html %}
 
-</graph></div>
+</graph>
 
+ </side>
+</article>
