@@ -20,6 +20,7 @@ body {
   background-color:black;
 }
 
+
 nav {
  background-color:white;
  color:blue;
@@ -44,6 +45,7 @@ graph{
 time {
   display: block;
   color: $color-subtext;
+  text-transform: uppercase;
   font-size:1.2em;
   text-align:center;
   font-family:monospace;
@@ -80,6 +82,14 @@ blockquote {
 
 ul {
   list-style-type: circle;
+}
+
+.note {
+  margin-left:1em;
+  margin-right:1em;
+}
+.note p {
+  margin-left:1em;
 }
 
 hr {
