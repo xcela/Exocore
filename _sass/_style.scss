@@ -55,10 +55,13 @@ time {
 
 
 .footer-nav {
+  margin:1em;
   font-size: 0.8em;
   color: $color-text;
   text-align:center;
 }
+
+license {text-align:center; margin:1em;}
 
 img {
   max-width: 100%;
