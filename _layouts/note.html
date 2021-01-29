@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article>
-  <div class="border" style="padding:1em; padding-top:1em; margin-bottom:1em;">
+  <div class="border" style="padding:1em; padding-bottom:0em; padding-top:1em; margin-bottom:1em;">
     <h1 class="title">{{ page.title }}</h1>
   </div>
   <div id="notes-entry-container">
@@ -12,9 +12,10 @@ layout: default
     </content>
   </div>
   <hr>
+  
   <side>
       <div class="sidenote">
-      <h2 style="margin-bottom: 1em">Interlinked pages:</h2>
+      <h1 style="margin-bottom: 1em">Interlinked pages:</h1>
       {% if page.backlinks.size > 0 %}
       <div style="display: grid; grid-gap: 0.2em; grid-template-columns: repeat(1fr);">
       {% for backlink in page.backlinks %}
@@ -37,7 +38,7 @@ layout: default
 
 <div class="border" style="padding-top:0.2em; margin:1em">
 <graph>
-<h2 style="margin:1em;">Graph View:</h2>
+<h1 style="margin:1em;">Graph View:</h1>
 
 {% include notes_graph.html %}
 

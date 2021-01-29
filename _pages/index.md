@@ -4,9 +4,8 @@ title: Exocore
 id: home
 permalink: /
 ---
----
-layout: page
-title: Exocore: Public Markdown Exocortex
+# Exocore: Public Markdown Exocortex
+
 ---
 
 Preconfigured template to roll out your own no-code, no-cost public exocortex from documents written in simple Markdown syntax, including interlinking, generated backlinks and a nodal graph-rendering. Site's are rendered in fast, responsive, standards-compliant static HTML. 
