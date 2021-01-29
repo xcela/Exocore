@@ -12,7 +12,7 @@ img
 
 # Instructions
 
-If you already have Github setup and installed, skip to [3. Create a fork of the template repository](#Create-a-fork-of-the-template-repository).
+If you already have Github setup and installed, skip to [3. Create a fork of the template repository](#3-Create-a-fork-of-the-template-repository).
 
 ## 1. Create a Github Account
 
