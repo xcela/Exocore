@@ -8,7 +8,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-# Notes graph metadata
+# notes graph metadata
 _includes/notes_graph.json
 
 # Obsidian config

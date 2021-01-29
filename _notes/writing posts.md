@@ -1,10 +1,10 @@
 ---
-title: Your first seed
+title: Writing notes
 ---
 
 ### Welcome!
 
-Test. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
+You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
 
 ### Link syntax
 
@@ -27,11 +27,40 @@ Of course, you can also link to external websites, like this: [this is a link to
 
 ### Automatic bi-directional links
 
-Notice in the "Notes mentioning this note" section that there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.
+Notice in the "notes mentioning this note" section that there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.
 
 ### Link previews
 
 If you're on a device with mouse support, try hovering your mouse on internal links to preview the notes: [[a note about cats]].
+
+### Header
+
+All notes should begin with a header of the top showing title:
+```
+---
+Tite: Page Title
+---
+```
+
+Additionally, you can add tags and categories:
+```
+Tags: x, y, z
+Category: a
+```
+
+### Table of Contents
+
+Table of contents plug is turned off by default. It can be added by including the following in the header:
+```
+toc: on
+```
+
+### Graph
+
+The graph is turned on by default at the bottom of every page. It can be turned off by including the following in the header:
+```
+graph: off
+```
 
 ### Images and other Markdown goodies
 
@@ -75,12 +104,9 @@ end
 $ cat /dev/urandom | grep "the answer to life" # shell scripts look nice too
 ```
 
-
 ### Next steps
 
-**If this template is useful to you in any way, consider [donating](https://ko-fi.com/maximevaillancourt) to support my work**. ☕
-
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+This Exocore template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
 
 The easiest way to build your own digital garden based on this template is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll). If you need any help, my [DMs are open on Twitter (@vaillancourtmax)](https://twitter.com/vaillancourtmax). 👋
 
