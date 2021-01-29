@@ -16,7 +16,7 @@ body {
   overflow-x: hidden;
   color: $color-text;
   font-size: 1rem;
-  max-width: 34em;
+  max-width: 43em;
   background-color:black;
 }
 
@@ -136,6 +136,7 @@ a {
   color: black !important;
 }
 
+/*
 #notes-entry-container {
   display: grid;
   grid-gap: 2em;
@@ -147,6 +148,7 @@ a {
     grid-template-areas: "content side";
   }
 }
+*/
 
 .sidenote {
   background-color:black;
