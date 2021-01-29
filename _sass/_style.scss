@@ -39,9 +39,6 @@ border: 1px solid white;
   }
 }
 
-graph{
-  margin:0em;
-}
 
 time {
   display: block;
@@ -61,10 +58,9 @@ time {
 }
 
 license {
-  display: block;
-  color: $color-subtext;
   text-align:center;
   font-family:monospace;
+  font:1.1em;
 }
 
 img {
