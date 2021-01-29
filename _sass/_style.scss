@@ -95,12 +95,14 @@ h6 {
   line-height: 1.4;
   padding-bottom: 0;
   font-size:1.15em;
+  margin:1em;
+  margin-left:0em;
 }
 
-.title { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin-bottom:1em;}
-h1 {text-transform:uppercase; text-align:center;font-weight:bold;  margin-top: 0;}
-h2 {text-transform:uppercase;font-weight:bold; text-decoration:underline; font-size:1em; margin:1em; text-align:left}
-h3 {text-transform:none;font-weight:normal; font-size:1em; text-decoration:underline;text-align:left}
+.title { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin-top:0em;}
+h1 {text-transform:uppercase; text-align:center;font-weight:bold; }
+h2 {text-transform:uppercase;font-weight:bold; text-decoration:underline; text-align:left}
+h3 {text-transform:none;font-weight:normal; text-decoration:underline;text-align:left}
 h4 {text-transform:none;font-weight:normal; font-size:1em; text-align:left}
 
 
