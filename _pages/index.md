@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Exocore: Public Markdown Exocortex
+title: Exocore - Public Markdown Exocortex
 id: home
 permalink: /
 ---
