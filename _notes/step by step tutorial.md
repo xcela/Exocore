@@ -22,7 +22,7 @@ Both services are entirely free. The only cost you will see is if you choose to 
 
 You may also consider [[alternative setup on Neocities]] and [[self-hosting your Exocore]].
 
-## 1. Setup Github and Fork the Repository
+## 1. Fork the Exocore Repository
 
 The first step is to simply fork our [template repository on Github]().
 
@@ -49,8 +49,10 @@ Once that’s done, your site will be available on the Internet via a generic Ne
 
 ## 3. Optional: Custom Domain
 
-
+### Setup on Subdomain
 
 ---
 
-That's everything you need, your site is now live. Follow up with more details on [[writing posts]] and [[site customization]], and read about [[Updating files on Github]] if you were new to Github.
+That's everything you need, your site is now live and posts are ready to be edited and written.
+
+Follow up with more details on [[writing posts]] and [[site customization]], and read about [[updating files on Github]] if you were new to Github.
