@@ -35,3 +35,7 @@ Initial exocortexes:
 * are port
 * edith port
 * 101 reasons pages
+
+Gemini
+
+font-family:"Iosevka Term SS03","IBM Plex Mono","Fira Code","Fira Mono","Roboto Mono","Droid Sans Mono",Monaco,Consolas,Courier,monospace;

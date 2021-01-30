@@ -6,9 +6,13 @@ title: Github Tutorial for Exocore
 
 ## 2. Install Github
 
-## 3. Create a fork of the template repository
+### Github Desktop
 
-## 4. Clone the Exocore repository
+### Github CLI
+
+## 3. Saving Changes to Github
+
+### Github Web
 
 ### Github Desktop
 
@@ -25,12 +29,3 @@ Then, navigate into the directory that was just created:
 $ cd my-digital-garden
 
 You can now return to the main tutorial.
-
-## 5. Updating files on Github
-
-Pushing to github
-
-### Github Desktop
-
-### Github CLI
-

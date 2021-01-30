@@ -121,6 +121,7 @@ a {
   text-decoration:none;
   &:hover {
     text-decoration:underline;
+    cursor: alias;
   }
   &.internal-link {
     color:orange;
