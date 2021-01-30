@@ -1,5 +1,6 @@
 ---
 title: Step-by-step Tutorial
+published: true
 ---
 
 You can set up a public [[exocortex]] of your own in 5 minutes, with no code or installation, using entirely free services to host your site on the web. 
@@ -32,8 +33,9 @@ Continue below if you have an account ready.
 
 ## 2. Install the Exocore template to GitHub and Netlify
 
-Use our (One-click installation)[https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore].
+Use our [One-click installation](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore).
 
+Then,
 1. Select Connect to Github
 2. Login and Authorize Application
 3. Name your repository - this is only for your own reference
