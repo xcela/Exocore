@@ -120,4 +120,4 @@ Some things to keep in mind:
 
 That's all you need to get started! You can follow up with more details on [[Writing Posts]] and [[Markdown Syntax]].
 
-You may also consider [[site customization]] and [[self-hosting your Exocore]].
+You may also consider [[changing themes]], [[site customization]] and [[self-hosting your Exocore]].
