@@ -49,7 +49,7 @@ The site's master files will also appear in your Github account, under the repos
 
 ### 2.1 Change your site name
 
-Your site will be available for anyone to view at [site-name].netlify.app. 
+Your site will be available for anyone to view at `[site-name].netlify.app.`
 
 You can change the default generated site name to whatever you'd like by navigating to Site settings > Site details > Change site name, as long as its not already taken by another Netlify site, to get a new url.
 
