@@ -33,13 +33,13 @@ Continue below if you have an account ready.
 
 ## 2. Install the Exocore template to GitHub and Netlify
 
-Use our [One-click installation](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore).
+Open our [One-click installation](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore).
 
-Then,
-1. Select Connect to Github
-2. Login and Authorize Application
+Steps:
+1. Select `Connect to Github`
+2. Login and select `Authorize Application`
 3. Name your repository - this is only for your own reference
-4. Select Deploy site
+4. Select `Deploy site`
 
 Netlify will now take about 5 minutes for the initial build of the site. If you want, you can watch the status of the build by clicking ``Production: master@HEAD`` under **Production Deploys**.
 
@@ -53,11 +53,11 @@ Your site will be available for anyone to view at `[site-name].netlify.app.`
 
 You can change the default generated site name to whatever you'd like by navigating to Site settings > Site details > Change site name, as long as its not already taken by another Netlify site, to get a new url.
 
-## 3. Navigating and Editing
+## 3. Editing your Site
 
-The web files are all hosted on your Github site repository and can be edited in a multitude of ways. If you are familiar and comfortable with Github, you can use it as normal to download the files on your computer, edit it with your preferred text editor, and push updates to the site repository.
+The page files are all hosted on your Github site repository and can be edited in a multitude of ways. If you are familiar and comfortable with Github, you can use it as normal to download the files on your computer, edit it with your preferred text editor, and push updates to the site repository.
 
-However, if this is not a workflow you are used to, I recommend [Prose](https://prose.io/), a web based Markdown editor connected to your Github account, so you can manage your site freely from any machine without any installation required.
+However, if this is not a workflow you are used to, I recommend [Prose](https://prose.io/), a web based Markdown editor connected to your Github account, so you can manage your site freely from any machine without any installations.
 
 ### Using Prose.io
 
@@ -108,9 +108,10 @@ SSL (https) will be configured automatically.
 
 ## Usage
 
-Your site is now live and ready to be used.
+Your site is now live and ready to be used!
 
 Some things to keep in mind:
+
 * The site is separated into note and pages. Notes are the web of articles/posts that forms the body of your site; pages are more permanent structure, like the homepage or about page.
 * Pages are located in `_pages/`. Your homepage is `index.md`.
 * Notes are located in `_notes/`.

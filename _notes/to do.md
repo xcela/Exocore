@@ -16,6 +16,11 @@ Do:
 * fix padding at top of page
 * create "Recipe" template layout
 
+PLugins
+* Unminimize html/css
+* Analytics on netlify?
+* Optimize Images
+
 Secondary:
 * Setup ZK version
 * Make a page on editors
@@ -36,6 +41,18 @@ Initial exocortexes:
 * edith port
 * 101 reasons pages
 
-Gemini
 
+
+RSS/Atom -> Reader guide
+
+
+Gemini css
 font-family:"Iosevka Term SS03","IBM Plex Mono","Fira Code","Fira Mono","Roboto Mono","Droid Sans Mono",Monaco,Consolas,Courier,monospace;
+
+
+https://wiki.xxiivv.com/site/juni.html
+chorded keyboard
+
+
+https://shop.pimoroni.com/products/pirate-radio-pi-zero-w-project-kit
+pirate radio
