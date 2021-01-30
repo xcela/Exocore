@@ -1,15 +1,21 @@
-$color-primary: orange;
+$background: black;
 $color-text: white;
 $color-subtext: white;
+$internal-links: orange;
+$external-links: pink;
+$invalid-links: red;
+$color-primary: orange;
+$color-secondary: blue;
 $color-border: 1px solid white;
 $border-radius: 0px;
 $color-box-background: black;
-$font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
-  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+$font-family-sans-serif: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+$font-family-serif: ;
+$font-family-mono: monospace;
 
 body {
   box-sizing: content-box;
-  font-family: $font-family;
+  font-family: $font-family-sans-serif;
   margin: 0 auto;
   line-height: 1.1em;
   padding: 4vh 6vw;
@@ -17,20 +23,20 @@ body {
   color: $color-text;
   font-size: 1rem;
   max-width: 43em;
-  background-color:black;
+  background-color:$background;
 }
 
 
 nav {
- background-color:white;
- color:blue;
- font-weight:normal; 
- padding:1em;
+ background-color: white;
+ color: blue;
+ font-weight: normal; 
+ padding: 1em;
  margin: 1em 0 1em;
 }
 
 #notes-entry-container, .border {
-border: 1px solid white;
+border: $color-border;
   padding: 2em;
    @media (max-width: 700px) {
     border:none;
@@ -39,14 +45,56 @@ border: 1px solid white;
   }
 }
 
+.title {
+  padding:1em; padding-bottom:0em; padding-top:1em; margin-bottom:1em
+}
+
+.note {
+  padding:1em; border:1px solid white; 
+}
+
+#note {
+  margin:2em; line-height: 1.1em;
+}
+
+.graph {
+  margin:2em; line-height: 1.1em;
+}
+
+.graph h1 {
+  margin:1em;
+}
+
+.sidenote{
+  max-width:28em; margin: 0 auto;
+}
+.sidenote h1{
+  margin-bottom: 1em
+}
+.backnote-title {
+  display: grid; grid-gap: 0.2em; grid-template-columns: repeat(1fr);
+}
+.backlinks-excerpt{
+  font-size: 0.9em; color: $color-subtext;
+}
+.backlinks-none{
+  font-size: 0.9em; text-align:center;
+}
+.time {
+  padding:1em; margin-top:1em;
+}
+.license {
+  padding:1em; margin-top:1em; max-width: 28em; margin: 0 auto; text-align:center;
+}
+
 
 time {
   display: block;
+  font-family: $font-family-monospace;
   color: $color-subtext;
   text-transform: uppercase;
   font-size:1.2em;
   text-align:center;
-  font-family:monospace;
 }
 
 
@@ -58,9 +106,9 @@ time {
 }
 
 license {
-  text-align:center;
-  font-family:monospace;
-  font:1.1em;
+  text-align: center;
+  font-family: $font-family-monospace;
+  font: 1.1em;
 }
 
 img {
@@ -75,7 +123,7 @@ blockquote {
   padding: 1em;
   margin: 0;
   font-size: 1em;
-  font-family: serif;
+  font-family: $font-family-serif;
     font-style: italic;
   background: $color-box-background;
 }
@@ -117,19 +165,20 @@ h4 {text-transform:none;font-weight:normal; font-size:1em; text-align:left}
 
 
 a {
-  color: pink;
+  color: $external-links;
   text-decoration:none;
   &:hover {
-    text-decoration:underline;
+    text-decoration: underline;
     cursor: alias;
   }
   &.internal-link {
-    color:orange;
+    color: $internal-links;
+    cursor: pointer;
   }
 }
 
 nav a {
-  color:blue !important;
+  color: blue !important;
 }
 
 *:focus {
@@ -152,32 +201,27 @@ nav a {
 */
 
 .sidenote {
-  background-color:black;
-  border: 1px solid white;
+  background-color: $background;
+  border: $color-border;
   padding: 1em;  
   padding-top:0em;
 }
 
 .backlink-box {
+  background-color: $background;
   border: 1px solid orange;
-  background-color: black;
   border-radius: 4px;
   padding:1em;
   line-height:1em;
 }
 
 code {
-  color:lightgray;
-  font-family:monospace;
-  font-size:1.1em;
+  color: lightgray;
+  font-family: $font-family-monospace;
+  font-size: 1.1em;
 }
 
-.invalid-link {
-  color: pink;
-  cursor: help;
-}
-
-.invalid-link-brackets {
-  color: pink;
+.invalid-link, .invalid-link-brackets {
+  color: $invalid-links;
   cursor: help;
 }

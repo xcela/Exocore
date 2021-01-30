@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article>
-  <div class="border" style="padding:1em; padding-bottom:0em; padding-top:1em; margin-bottom:1em;">
+  <div class="border title">
     <h1 class="title">{{ page.title }}</h1>
   </div>
   <div id="notes-entry-container">
@@ -14,20 +14,19 @@ layout: default
   <hr>
 
   <side>
-      <div class="sidenote" style="max-width:28em; margin: 0 auto;
-">
-      <h1 style="margin-bottom: 1em">Interlinked pages:</h1>
+      <div class="sidenote">
+      <h1>Interlinked pages:</h1>
       {% if page.backlinks.size > 0 %}
-      <div style="display: grid; grid-gap: 0.2em; grid-template-columns: repeat(1fr);">
+      <div class="backlinks-title">
       {% for backlink in page.backlinks %}
         <a class="internal-link" href="{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}"><div class="backlink-box">
         {{ backlink.title }}<br>
-        <div style="font-size: 0.9em; color:white;">{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div></a>
+        <div class ="backlinks-excerpt">{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div></a>
         </div>
       {% endfor %}
       </div>
       {% else %}
-      <div style="font-size: 0.9em; text-align:center">
+      <div class="backlinks-none">
         <p>
           No pages linking here.
         </p>
@@ -37,7 +36,7 @@ layout: default
  <hr> 
 
 <graph>
-<h1 style="margin:1em;">Graph View:</h1>
+<h1>Graph View:</h1>
 
 {% include notes_graph.html %}
 
