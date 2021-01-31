@@ -9,3 +9,8 @@ gem "jekyll-last-modified-at", git: "https://github.com/maximevaillancourt/jekyl
 gem "webrick", "~> 1.7"
 
 gem "jekyll-readme-index"
+gem 'jekyll-feed'
+gem "jekyll-pdf-embed"
+gem 'jekyll-sitemap'
+gem 'jekyll-redirect-from'
+gem 'jekyll-analytics'
