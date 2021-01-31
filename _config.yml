@@ -15,6 +15,7 @@ relative_permalinks: false
 
 plugins:
   - jekyll-last-modified-at
+  - jekyll-readme-index
 
 sass:
   sass_dir:          _sass
