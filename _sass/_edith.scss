@@ -118,6 +118,9 @@ nav a {
   color: blue !important;
 }
 
+.anchor {
+  color: $color-text;
+}
 
 /* === Page Formatting === */
 
@@ -204,9 +207,7 @@ nav {
   margin-right:1em; 
   line-height: 1.1em;
   padding-top:0.5em;
-  @media (max-width: 700px) {
-  margin:1em;
-  }
+
 }
 .content p {
   margin-left:1em;
