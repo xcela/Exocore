@@ -11,7 +11,6 @@ All pages are converted from simple, non-code [[Markdown]] syntax, so you can fo
 The end result will look similar to this:
 
 
-
 # Tutorial
 
 ## Introduction
