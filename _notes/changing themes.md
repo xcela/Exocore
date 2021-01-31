@@ -4,10 +4,10 @@ Title: Changing Themes
 
 A few themes have been provided in the standard install:
 
+* Yotsuba - Purple, light
 * Edith - Black & Orange, dark
 * Xcela - white & Blue, light
 * Erowid - Purple, dark
-* Yotsuba - Purple, light
 * Gemini - Dark mode, monospace
 
 ## Theme Gallery
@@ -24,8 +24,10 @@ By default it should look like:
 
 @import "../_sass/normalize";
 @import "../_sass/code";
-@import "../_sass/themes/edith";
+@import "../_sass/themes/yotsuba";
 ```
+
+You can simply change `yotsuba` to `edith` `xcela` `erowid` `gemini` or `redstate`
 
 ## Creating/Modifying themes
 
