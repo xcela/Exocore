@@ -115,8 +115,8 @@ a {
     cursor: alias;
   }
       a.internal-link {
-    color: $internal-links;
-      text-decoration:none;
+    color: $external-links;
+       text-decoration:underline; 
     cursor: pointer;
       }
 .invalid-link, .invalid-link-brackets {
@@ -124,6 +124,13 @@ a {
   cursor: help;
 }
 
+nav a.internal-link::before{
+  content:""; color:blue;
+}
+
+nav a.intern-link::before{
+  content:""; color:blue;
+}
 
 .sidenote a, nav a {
     font-weight: normal !important;
