@@ -23,7 +23,7 @@ Netlify will also provide your site a custom subdomain, e.g. `[site-name].netlif
 
 All services are entirely free besides the custom domain.
 
-## 1. Create Github Account
+## Create Github Account
 
 First, create an account on [github.com](https://github.com/) if you do not already have one.
 
@@ -31,7 +31,7 @@ If you are unfamiliar with Github and do not have an account, please first follo
 
 Continue below if you have an account ready.
 
-## 2. Install the Exocore template to GitHub and Netlify
+## Install the Exocore template to GitHub and Netlify
 
 Open our [One-click installation](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore).
 
@@ -47,13 +47,13 @@ Once it's complete, the Production status will change to **Published**, and you 
 
 The site's master files will also appear in your Github account, under the repository name you selected, e.g. `github.com/account-name/repository-name`. Changes here will go live on the site automatically.
 
-### 2.1 Change your site name
+### Change your site name
 
 Your site will be available for anyone to view at `[site-name].netlify.app.`
 
 You can change the default generated site name to whatever you'd like by navigating to Site settings > Site details > Change site name, as long as its not already taken by another Netlify site, to get a new url.
 
-## 3. Editing your Site
+## Editing your Site
 
 The page files are all hosted on your Github site repository and can be edited in a multitude of ways. If you are familiar and comfortable with Github, you can use it as normal to download the files on your computer, edit it with your preferred text editor, and push updates to the site repository.
 
@@ -69,7 +69,7 @@ Formatting is colored for Markdown syntax with preview available.
 
 When you're done editing a post, simply hit save in the right sidebar. The changes will propagate on your live site in a few seconds.
 
-## 4. Optional: Custom Domain
+## Optional: Custom Domain
 
 Custom domains can be added for a better look and more memorable url, but you will need to purchase one. If you already have a domain, follow the steps in [Configuring a Domain Purchased Elsewhere](#Configuring-a-Domain-Purchased-Elsewhere) 
 
