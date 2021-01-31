@@ -64,6 +64,7 @@ ul {
 
 hr {
   margin:1.5em;
+  color: d9bfb7;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -137,13 +138,15 @@ nav a {
 
 .title {
   border: $color-border; padding: 1em;
-  background-color: $background;
+    box-shadow: 1px 1px 0px #d9bfb7;
+  background-color: #ffffee;
   margin-bottom:1em;
 }
 
 nav {
   background-color: $background;
   border: $color-border; padding: 1em;
+    box-shadow: 1px 1px 0px #d9bfb7;
  color: blue;
  font-weight: normal; 
  padding: 1em;
@@ -161,6 +164,7 @@ nav {
 
 .border, .notes-entry-container {
   border: $color-border; 
+    box-shadow: 1px 1px 0px #d9bfb7;
   padding: 2em;
    @media (max-width: 700px) {
     border:none;
@@ -172,6 +176,7 @@ nav {
 
 .graph {
   border: $color-border; padding: 2em;
+    box-shadow: 1px 1px 0px #d9bfb7;
   margin:2em; line-height: 1.1em;
 }
 
@@ -189,14 +194,15 @@ nav {
 .sidenote {
   background-color: $background;
   border: $color-border;
+    box-shadow: 1px 1px 0px #d9bfb7;
   padding: 1em;  
   padding-top:0em;
 }
 
 .backlink-box {
   background-color: $background;
-  border: 1px solid orange;
-  border-radius: 4px;
+  border: $color-border;
+    box-shadow: 1px 1px 0px #d9bfb7;
   padding:1em;
   line-height:1em;
 }
@@ -213,6 +219,7 @@ nav {
 
 .note {
   border: $color-border;
+    box-shadow: 1px 1px 0px #d9bfb7;
   padding:1em; padding-top:0em; 
   background-color: $background;
 }
@@ -245,6 +252,7 @@ nav {
 /* Table of Contents */
 .toc-container{
   border: $color-border; 
+    box-shadow: 1px 1px 0px #d9bfb7;
   background-color: $background;
   padding: 1em;
   padding-bottom: 0em;
@@ -274,6 +282,7 @@ nav {
 
 time {
   border: $color-border; 
+    box-shadow: 1px 1px 0px #d9bfb7;
   padding: 1em;
   display: block;
   font-family: $font-family-monospace;
