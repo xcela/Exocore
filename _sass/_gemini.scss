@@ -35,7 +35,7 @@ body {
   padding: 4vh 6vw;
   overflow-x: hidden;
   color: $color-text;
-  font-size: 1rem;
+  font-size: 1.15em;
   max-width: 43em;
   background-color:$background;
 }
@@ -198,21 +198,6 @@ nav {
 .backlinks-none{
   font-size: 0.9em; text-align:center;
 }
-
-.note {
-  padding:1em;
-  padding-top:0em; 
-}
-.content {
-  margin-left:2em; 
-  margin-right:1em; 
-  line-height: 1.1em;
-  padding-top:0.5em;
-}
-.content p {
-  margin-left:1em;
-}
-
 
 .notes-entry-container {
   display: grid;
