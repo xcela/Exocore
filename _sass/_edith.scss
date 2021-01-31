@@ -187,8 +187,12 @@ border: $color-border; padding: 2em;
 }
 .note {
   border: $color-border;
-  padding:1em; padding-top:0em; margin-left:1em;
+  padding:1em; padding-top:0em; 
 }
+#note {
+  margin-left:1em;
+}
+
 .note p {
   margin-left:1em;
 }
