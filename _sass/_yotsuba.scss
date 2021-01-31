@@ -149,6 +149,17 @@ nav a {
   cursor: pointer;
 }
 
+/* --- Header Anchors --- */
+h1:hover > a.anchor_heading,
+h2:hover > a.anchor_heading,
+h3:hover > a.anchor_heading,
+h4:hover > a.anchor_heading,
+h5:hover > a.anchor_heading,
+h6:hover > a.anchor_heading {
+    visibility: visible;
+} 
+
+
 /* === Page Formatting === */
 
 .title {

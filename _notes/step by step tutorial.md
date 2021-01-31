@@ -73,6 +73,8 @@ When you're done editing a post, simply hit save in the right sidebar. The chang
 
 Custom domains can be added for a better look and more memorable url, but you will need to purchase one. If you already have a domain, follow the steps in [Configuring a Domain Purchased Elsewhere](#Configuring-a-Domain-Purchased-Elsewhere) 
 
+Make sure to change your url in `_config.yml` to your new url.
+
 ### Purchase Domain on Netlify
 
 If you do not already have a domain, you can purchase it directly within Netlify by adding in a new Custom domain. Prices aren't the best on the market (e.g. `.com` is $15/yr, market rate is $12/yr), but it will automate all setup.
@@ -116,7 +118,7 @@ Some things to keep in mind:
 * Pages are located in `_pages/`. Your homepage is `index.md`.
 * Notes are located in `_notes/`.
 * Creating a new note is as simple as creating a new file with a `.md` filename in the `_notes` folder. Same goes for pages.
-* Linking to other notes or pages is done by writing double brackets around the title of the linked note, e.g. `[[Step by Step Tutorial]]`.
+* Linking to other notes or pages is done by writing double brackets around the title of the linked note, e.g. `[[Writing Posts]]` links to [[Writing Posts]]
 
 That's all you need to get started! You can follow up with more details on [[Writing Posts]] and [[Markdown Syntax]].
 
