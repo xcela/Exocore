@@ -7,6 +7,7 @@ A few themes have been provided in the standard install:
 * Yotsuba - Purple, light
 * Edith - Black & Orange, dark
 * Xcela - white & Blue, light
+* Redstate - white & red, light
 * Erowid - Purple, dark
 * Gemini - Dark mode, monospace
 
@@ -27,7 +28,7 @@ By default it should look like:
 @import "../_sass/themes/yotsuba";
 ```
 
-You can simply change `yotsuba` to `edith` `xcela` `erowid` `gemini` or `redstate`
+You can simply change `yotsuba` to `edith` `xcela` `erowid` `gemini` or `redstate`.
 
 ## Creating/Modifying themes
 
