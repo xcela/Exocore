@@ -12,7 +12,7 @@ $color-box-background: black;
 /* --- Text Colors --- */
 $color-text: #cad1d8;
 $color-subtext: white;
-$color-code: pink;
+$color-code: slateblue;
 $internal-links: $color-text;
 $external-links: $color-subtext;
 $invalid-links: $internal-links;
@@ -63,7 +63,7 @@ ul {
 }
 
 hr {
-  margin:1.5em;
+  margin:0em;
 }
 
 .title-text, h1,h2,h3,h4,h5,h6 {
@@ -71,12 +71,7 @@ font:inherit;
 font-weight:bold;
 color:#color-subtext;
 }
-
-h2 {margin-left:-1em;}
-h3 {margin-left:-2em;}
-h4 {margin-left:-3em;}
-h5 {margin-left:-4em;}
-h6 {margin-left:-5em;}
+.title-text{text-transform:upper;}
 
 h1::before {  content:"#"; }
 h2::before {  content:"##";}
@@ -84,13 +79,11 @@ h3::before {  content:"###";}
 h4::before {  content:"####";}
 h5::before {  content:"#####";}
 h6::before {  content:"######";}
-h3 {margin-left:1em;}
-h4, h5, h6 {margin-left:2em;}
 
 code {
-  color: white;
+  color: #color-code;
   font-family: $font-family-monospace;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 *:focus {
@@ -105,8 +98,9 @@ a {
   font-weight: strong;
   text-decoration:underline;
   &:hover {
-    text-decoration: underline;
-    background-color: #eec589;
+    background-color: black;
+    color:white;
+    text-decoration:underline;
     cursor: alias;
   }
   &.internal-link {
@@ -126,6 +120,7 @@ a {
 }
 nav a {
   color: #color-text !important;
+  background-color:none !important;
 }
 .anchor a {
   color: $color-text !important;
@@ -138,7 +133,6 @@ nav a {
 
 .toc-container a {
   cursor: pointer;
-
 }
 
 /* === Page Formatting === */
@@ -166,6 +160,8 @@ nav {
   }
 }
 
+hr {margin:0em;}
+
 /* -- Interlinks -- */
 
 .graph {
@@ -177,7 +173,7 @@ nav {
 }
 
 .sidenote{
-  max-width:28em; margin: 0 auto;
+  max-width:28em;
 }
 .sidenote h1{
   margin-bottom: 1em
@@ -221,10 +217,8 @@ nav {
 
 /* Table of Contents */
 .toc-container{
-  margin-left: -2em;
-  margin: 0 auto;
   display: block;
-  max-width: 50%;
+  margin-left:0em
     @media (max-width: 700px) {
   max-width:100%;
   }

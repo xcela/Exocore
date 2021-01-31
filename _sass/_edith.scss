@@ -1,4 +1,4 @@
-/* ### Theme: Edith.Reisen ### */
+/* ### Theme: Edith ### */
 
 /* === Base Settings === */
 
@@ -37,7 +37,6 @@ body {
   font-size: 1rem;
   max-width: 43em;
   background-color:$background;
-  word-break: break-all;
 }
 
 img {
@@ -124,8 +123,7 @@ nav a {
 }
 .anchor a:hover{
   color: $internal-links;
-    cursor: pointer;
-
+  cursor: pointer;
 }
 
 .toc-container a {
