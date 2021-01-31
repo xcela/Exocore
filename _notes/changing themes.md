@@ -4,9 +4,10 @@ Title: Changing Themes
 
 A few themes have been provided in the standard install:
 
-* Edith - Dark mode, orange highlights
-* Xcela - Light mode, blue highlights
+* Edith - Black & Orange, dark
+* Xcela - white & Blue, light
 * Erowid - Purple, dark
+* Yotsuba - Purple, light
 * Gemini - Dark mode, monospace
 
 ## Theme Gallery
