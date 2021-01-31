@@ -85,7 +85,8 @@ h1,h2,h3,h4,h5,h6 {
 h1 {color:#117743; font-weight:bold; text-decoration:underline;}
 h2 {color:#117743; font-weight:bold;}
 h3 {color:#117743; font-weight:normal; text-decoration:underline}
-h4 {text-transform:none;font-weight:normal; text-decoration:underline; font-size:1em;}
+h4 {text-transform:none;font-weight:strong; font-size:1em;}
+h5 {text-transform:none;font-weight:normal; text-decoration:underline; tfont-size:1em;}
 
 code {
   color: $color-code;
