@@ -10,9 +10,9 @@ $border-radius: 0px;
 $color-box-background: black;
 
 /* --- Text Colors --- */
-$color-text: #cad1d8;
+$color-text: grey;
 $color-subtext: white;
-$color-code: grey;
+$color-code: lightyellow;
 $internal-links: $color-text;
 $external-links: $color-subtext;
 $invalid-links: $internal-links;
@@ -122,7 +122,7 @@ nav a {
 a:hover {
     background-color: red !important;
     color:white;
-    cursor: alias;
+    cursor:alias;
 }
 .invalid-link, .invalid-link-brackets {
   color: $invalid-links;
