@@ -12,9 +12,9 @@ $color-box-background: black;
 /* --- Text Colors --- */
 $color-text: white;
 $color-subtext: white;
-$color-code: gray;
+$color-code: pink;
 $internal-links: orange;
-$external-links: pink;
+$external-links: orange;
 $invalid-links: red;
 $color-primary: orange;
 $color-secondary: blue;
@@ -101,6 +101,7 @@ a {
   }
   &.internal-link {
     color: $internal-links;
+    font-weight:bold;
     cursor: pointer;
   }
 }
