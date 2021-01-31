@@ -128,7 +128,7 @@ nav a {
   color: #color-text !important;
 }
 .anchor a {
-  color: $color-text; !important
+  color: $color-text !important;
   cursor: pointer;
 }
 .anchor a:hover{
@@ -221,9 +221,7 @@ nav {
 
 /* Table of Contents */
 .toc-container{
-  padding: 1em;
-  padding-bottom: 0em;
-  margin: 1em;
+  margin-left: -2em;
   margin: 0 auto;
   display: block;
   max-width: 50%;
