@@ -129,7 +129,7 @@ nav {
  margin: 1em 0 1em;
 }
 
-.border, #notes-entry-container {
+.border, .notes-entry-container {
 border: $color-border;
   padding: 2em;
    @media (max-width: 700px) {
@@ -184,7 +184,7 @@ border: $color-border;
   margin:2em; line-height: 1.1em;
 }
 .note {
-  padding:1em; border:1px solid white; 
+  padding:1em; padding-top:0em; border:1px solid white; 
 }
 .note p {
   margin-left:1em;
@@ -192,7 +192,7 @@ border: $color-border;
 
 
 /* Toggle Backlinks on Sidebar 
-#notes-entry-container {
+.notes-entry-container {
   display: grid;
   grid-gap: 2em;
   grid-template-areas:
