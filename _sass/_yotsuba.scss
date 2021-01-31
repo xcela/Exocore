@@ -121,14 +121,14 @@ a {
        text-decoration:underline; 
     cursor: pointer;
       }
+      a.internal-linker::before{
+      content:"»"
+      }
 .invalid-link, .invalid-link-brackets {
   color: $invalid-links;
   cursor: help;
 }
 
-nav a.internal-link::before{
-  content:""; color:blue;
-}
 
 nav a.intern-link::before{
   content:""; color:blue;
