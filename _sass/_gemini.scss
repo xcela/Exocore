@@ -62,9 +62,6 @@ ul {
   list-style-type: circle;
 }
 
-hr {
-  margin:0em;
-}
 
 .title-text, h1,h2,h3,h4,h5,h6 {
 font:inherit;
@@ -173,7 +170,7 @@ nav {
   }
 }
 
-hr {margin:0em; max-width: 30em;}
+hr {margin:0.5em; max-width: 30em;}
 
 /* -- Interlinks -- */
 
@@ -186,7 +183,7 @@ hr {margin:0em; max-width: 30em;}
 }
 
 .sidenote{
-  max-width:43em;
+  max-width:33em;
 }
 .sidenote h1{
   margin-bottom: 1em
@@ -195,6 +192,7 @@ hr {margin:0em; max-width: 30em;}
 .sidenote {
   background-color: $background;
   margin-top:1em;
+    margin-bottom: 1em
 }
 
 .backlink-box {
