@@ -21,6 +21,8 @@ Netlify will also provide your site a custom subdomain, e.g. `[site-name].netlif
 
 All services are entirely free besides the custom domain.
 
+---
+
 ## Create Github Account
 
 First, create an account on [github.com](https://github.com/join) if you do not already have one. Remember to [make your email private](https://saraford.net/2017/02/19/how-to-hide-your-email-address-in-your-git-commits-but-still-get-contributions-to-show-up-on-your-github-profile-050/) in settings.
@@ -51,11 +53,11 @@ Change the default generated site name to whatever you'd like by navigating to `
 
 ### Add meta data
 
-Open `_config.yml` and replace the example content with your site title and url. You can edit this file directly in your Github repository, see [the note on Editing your site](#Note-on-Editing-your-Site) if this is unclear.
+Open `_config.yml` and replace the example content with your site title and url. You can edit this file directly in your Github repository, see [the note on Editing your site](#note-on-editing-your-site) if this is unclear.
 
 ## Optional: Custom Domain
 
-Custom domains can be added for a better look and more memorable url, but you will need to purchase one. If you already have a domain, follow the steps in [Configuring a Domain Purchased Elsewhere](#Configuring-a-Domain-Purchased-Elsewhere) 
+Custom domains can be added for a better look and more memorable url, but you will need to purchase one. If you already have a domain, follow the steps in [Configuring a Domain Purchased Elsewhere](#configuring-a-domain-purchased-elsewhere) 
 
 ### Purchase Domain on Netlify
 
@@ -89,6 +91,8 @@ Then add the custom domain in Netlify:
 3. Select Yes, add domain
 
 SSL (https) will be configured automatically.
+
+---
 
 ## Usage
 
