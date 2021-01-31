@@ -37,10 +37,4 @@
   {% if page.image %}
   <meta property="og:image" content="{{ site.url }}{{ page.image }}">
   {% endif %}
-
-    {% if page.id == "home" %}
-      {{ site.title }}
-    {% else %}
-      {{ page.title }} &mdash; {{ site.title }}
-    {% endif %}
 </head>
