@@ -3,9 +3,8 @@ title: To-do
 ---
 
 Do:
-* Add this page links; these pages link here -- two columns
+* Add [this page links to; these pages link here] -- two columns
 * Setup proper categories/folder heirachies; hide slash if none
-* Update 404 page
 * Make graph, interlinking, toc optional
 * Edith - Dark mode; Xcela - Light mode; Yotsuba - lightpurple (cyberdox); Erowid - darkpurple (slime neo)
 * create "Recipe" template layout
@@ -13,15 +12,11 @@ Do:
 PLugins
 * Unminimize html/css
 * Optimize Images
+* fix broken plugins
 
 Secondary:
 * Setup ZK version
 * Lightweight image load? and any other responsive features
-
----
-
-Understand:
-* make tag based pages, category based pages
 
 ---
 
@@ -32,10 +27,6 @@ Initial exocortexes:
 * 101 reasons pages
 
 RSS/Atom -> Reader guide
-
-
-Gemini css
-font-family:"Iosevka Term SS03","IBM Plex Mono","Fira Code","Fira Mono","Roboto Mono","Droid Sans Mono",Monaco,Consolas,Courier,monospace;
 
 
 https://wiki.xxiivv.com/site/juni.html
