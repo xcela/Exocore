@@ -258,7 +258,8 @@ nav {
 /* -- Footer -- */ 
 
 time {
-  border: $color-border; padding: 1em;
+  border: $color-border; 
+  padding: 1em;
   display: block;
   font-family: $font-family-monospace;
   color: $color-subtext;
@@ -268,7 +269,7 @@ time {
 }
 
 .time {
-  padding:1em; margin-top:1em;
+  margin-top:1.5em;
 }
 
 .footer-nav {
