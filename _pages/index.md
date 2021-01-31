@@ -22,7 +22,7 @@ No downloads or installation required, sites hosted and served through Github & 
 
 This has been designed to be as easy as possible to launch onto a live host at no-charge, through hosting on Github Pages and site serving through Netlify. Files can be accessed and edited from anywhere through Github and will be automatically updated live on the site.
 
-Please follow the [[Step-by-step tutorial]].
+[[Step-by-step Exocore Installation Guide]].
 
 ## License
 
