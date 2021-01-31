@@ -80,6 +80,14 @@ h4::before {  content:"####";}
 h5::before {  content:"#####";}
 h6::before {  content:"######";}
 
+.page {
+h2::before {  content:"## ";}
+h3::before {  content:"### ";}
+h4::before {  content:"#### ";}
+h5::before {  content:"##### ";}
+h6::before {  content:"###### ";}
+}
+
 code {
   color: #color-code;
   font-family: $font-family-monospace;
@@ -257,6 +265,7 @@ time {
   margin-top:1em;
   font-size: 0.8em;
   color: $color-text;
+  margin-left:0em
 }
 
 license {
@@ -265,8 +274,8 @@ license {
 
 .license {
   margin-top:1em; 
-  max-width: 28em;
   font-size: 0.8em;
+  margin-left:0em
 }
 .footer-nav a, .license a {
   background-color: none !important;
