@@ -12,7 +12,7 @@ $color-box-background: black;
 /* --- Text Colors --- */
 $color-text: white;
 $color-subtext: white;
-$color-code: blue;
+$color-code: gray;
 $internal-links: orange;
 $external-links: pink;
 $invalid-links: red;
@@ -72,7 +72,7 @@ h1,h2,h3,h4,h5,h6 {
   margin-left:0em;
 }
 
-.title { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin-top:0em;}
+.title-text { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin-top:0em; line-height:0em;}
 
 h1 {text-transform:uppercase; text-align:center;font-weight:bold; }
 h2 {text-transform:uppercase;font-weight:normal; text-decoration:underline; text-align:left}
@@ -118,9 +118,6 @@ nav a {
 
 .title {
   margin-bottom:1em;
-}
-.title-text {
-margin:0em; padding:0em;
 }
 
 nav {
@@ -187,9 +184,6 @@ border: $color-border;
 }
 .note {
   padding:1em; border:1px solid white; 
-  margin-left:1em;
-  margin-right:1em;
-  color:red;
 }
 .note p {
   margin-left:1em;
