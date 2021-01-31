@@ -121,8 +121,8 @@ a {
        text-decoration:underline; 
     cursor: pointer;
       }
-      a.internal-link::before{
-      content:"»"
+      notes-entry-container a.internal-link::before{
+      content:"»";
       }
 .invalid-link, .invalid-link-brackets {
   color: $invalid-links;

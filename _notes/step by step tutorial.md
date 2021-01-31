@@ -80,7 +80,7 @@ For uncommon domains and more competitive prices, [Namecheap](https://namecheap.
 
 #### Configuring a Domain Purchased Elsewhere
 
-If you purchase your domain elsewhere, you will need to configure your domain provider to point the domain to your Netlify site. Folow this guide: [Configure external DNS for a custom domain](https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/). 
+If you purchase your domain elsewhere, you will need to configure your domain provider to point the domain to your Netlify site. Follow this guide: [Configure external DNS for a custom domain](https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/). 
 
 The steps on your domain provider's end will be different depending on your provider, look for something along the lines of "Create A or CNAME Record", "Point DNS to Domain" or "Manage DNS Records".
 
