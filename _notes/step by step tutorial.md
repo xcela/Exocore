@@ -1,5 +1,5 @@
 ---
-title: Step-by-step Exocore Installation Guide on Github + Netlify
+title: Step-by-step Exocore Installation Guide
 id: Step by step guide
 published: true
 toc: true
