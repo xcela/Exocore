@@ -30,4 +30,4 @@ Source code is available under the [Viral Public License](LICENSE.md).
 
 ---
 
-An [XCELA: New Computing Reasearch Group](https://xcela.org) project.
+An [XCELA: New Computing Research Group](https://xcela.org) project.
