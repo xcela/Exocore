@@ -5,7 +5,7 @@
 /* --- Body Colors --- */
 
 $background: #f0e0d6;
-$color-border: 1px solid black;
+$color-border: none;
 $border-radius: 0px;
 $color-box-background: black;
 
@@ -25,6 +25,10 @@ $font-family-serif: serif;
 $font-family-monospace: ”Iosevka Term SS03”,”IBM Plex Mono”,”Fira Code”,”Fira Mono”,”Roboto Mono”,”Droid Sans Mono”,Monaco,Consolas,Courier,monospace;;
 
 /* === Body === */
+
+article {
+  background-color: #f0e0d6;
+}
 
 body {
   background-color: black;
@@ -76,7 +80,7 @@ h1,h2,h3,h4,h5,h6 {
    text-align:left
 }
 
-.title-text { color:#cc1105; font-weight:bold; line-height:1em;}
+.title-text { color:#cc1105; font-weight:bold; line-height:1em; margin:0em;}
 
 h1 {color:#cc1105; font-weight:bold; }
 h2 {color:#117743; font-weight:normal; font-weight:bold;}
@@ -139,12 +143,12 @@ nav a {
 .title {
   border: $color-border; padding: 1em;
     box-shadow: 1px 1px 0px #d9bfb7;
-  background-color: #ffffee;
+  background-color: $background-color;
   margin-bottom:1em;
 }
 
 nav {
-  background-color: $background;
+  background-color: #ffffee;
   border: $color-border; padding: 1em;
     box-shadow: 1px 1px 0px #d9bfb7;
  color: blue;
