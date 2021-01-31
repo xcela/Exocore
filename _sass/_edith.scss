@@ -110,9 +110,11 @@ a {
   cursor: help;
 }
 
+.sidenote a, nav a {
+    font-weight: normal !important;
+}
 nav a {
   color: blue !important;
-  font-weight: normal !important;
 }
 
 
