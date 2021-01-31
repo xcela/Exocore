@@ -87,7 +87,7 @@ h3 {color:#117743; font-weight:normal; text-decoration:underline}
 h4 {text-transform:none;font-weight:normal; text-decoration:underline; font-size:1em;}
 
 code {
-  color: white;
+  color: $color-code;
   font-family: $font-family-monospace;
   font-size: 1em;
 }
@@ -102,20 +102,22 @@ code {
 a {
   color: $external-links;
   text-decoration:underline;
-  &:hover {
-    color:red;
+  }
+    a:hover {
+    color:red !important;
     text-decoration: underline;
     cursor: alias;
   }
-  &.internal-link {
+      a.internal-link {
     color: $internal-links;
+      text-decoration:none;
     cursor: pointer;
-  }
-}
+      }
 .invalid-link, .invalid-link-brackets {
   color: $invalid-links;
   cursor: help;
 }
+
 
 .sidenote a, nav a {
     font-weight: normal !important;
@@ -301,6 +303,10 @@ time {
   font-size: 0.8em;
   color: $color-text;
   text-align:center;
+}
+
+.footer-nav a {
+  color:white;
 }
 
 license {
