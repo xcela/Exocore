@@ -13,8 +13,8 @@ $color-box-background: black;
 $color-text: #800000;
 $color-subtext: black;
 $color-code: pink;
-$internal-links: #34345c;
-$external-links: red;
+$internal-links: blue;
+$external-links: #34345c;
 $invalid-links: $internal-links;
 $color-primary: #cc1105;
 $color-secondary: #117743;
@@ -98,14 +98,14 @@ code {
 
 a {
   color: $external-links;
-  text-decoration:none;
+  text-decoration:underline;
   &:hover {
+    color:red;
     text-decoration: underline;
     cursor: alias;
   }
   &.internal-link {
     color: $internal-links;
-    font-weight:bold;
     cursor: pointer;
   }
 }
