@@ -67,6 +67,7 @@ ul {
 
 hr {
   margin:1.5em;
+  margin-bottom:0em;
  background-color: #d9bfb7;
 }
 
@@ -180,6 +181,7 @@ nav {
 .border, .notes-entry-container {
   border: $color-border; 
   padding: 2em;
+  padding-top:1em;
    @media (max-width: 700px) {
     border:none;
     padding:none;
