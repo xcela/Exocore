@@ -15,8 +15,19 @@ relative_permalinks: false
 
 plugins:
   - jekyll-last-modified-at
+    # Generate last modified date
   - jekyll-readme-index
-
+    # Generate an index of posts as README.md file 
+  - jekyll-feed
+    # Generate Atom feed of posts, automattic [feed.xml]
+  - jekyll-pdf-embed
+    # PDF Embed, code: {% pdf "pdf-url" %}
+  - jekyll-sitemap
+    # Generate Sitemap
+  - jekyll-redirect-from
+    # Generate redirect meta data
+  - jekyll-analytics
+    # Analytics integrations; config at jekyll_analytics below
 sass:
   sass_dir:          _sass
   style:            :compressed
@@ -37,3 +48,23 @@ defaults:
       layout: "note"
 
 url: xcela.org
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-123-456          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+  Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
+    url: matomo.example.com # Required - url to Matomo installation without trailing /
+    siteId: "1234"          # Required - replace with your Matomo site id (Write id as string)
+
+  Piwik:                    # Add, if you want to track with Piwik
+    url: piwik.example.com  # Required - url to Piwik installation without trailing /
+    siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
+
+  MPulse:                   # Add if you want to track performance with mPulse
+    apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
+
+  Plausible:
+    domain: 'example.com'   # The domain configured in plausible
+    source: 'https://plausible.example.com/js/plausible.js' # The source of the javascript
