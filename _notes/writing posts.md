@@ -2,10 +2,6 @@
 title: Writing notes
 ---
 
-### Welcome!
-
-You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
-
 ### Link syntax
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
@@ -100,8 +96,4 @@ end
 $ cat /dev/urandom | grep "the answer to life" # shell scripts look nice too
 ```
 
-### Next steps
-
-This Exocore template is free, open-source, and [available on GitHub here](https://github.com/xcela/exocore).
-
-The easiest way to build your own digital garden based on this template is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll). 
+[[Introduction to Markdown]]
