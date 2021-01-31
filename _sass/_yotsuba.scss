@@ -12,7 +12,7 @@ $color-box-background: black;
 /* --- Text Colors --- */
 $color-text: #800000;
 $color-subtext: black;
-$color-code: pink;
+$color-code: #707070;
 $internal-links: blue;
 $external-links: #34345c;
 $invalid-links: $internal-links;
@@ -56,15 +56,13 @@ img {
 
 blockquote {
   padding: 1em;
+  color:#9f9922;
   margin: 0;
   font-size: 1em;
-  font-family: $font-family-serif;
-    font-style: italic;
-  background: $color-box-background;
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: bullet;
 }
 
 hr {
@@ -90,9 +88,8 @@ h4 {text-transform:none;font-weight:normal; font-size:1em; text-align:left}
 
 code {
   color: white;
-  background-color:blue;
   font-family: $font-family-monospace;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 *:focus {
