@@ -51,7 +51,7 @@ Change the default generated site name to whatever you'd like by navigating to `
 
 ### Add meta data
 
-Open `_config.yml` and replace the example content with your site title and url. You can edit this file directly in your Github repository, see [the section on Prose.io below](#Using-Prose-io).
+Open `_config.yml` and replace the example content with your site title and url. You can edit this file directly in your Github repository, see [the note on Editing your site](#Note-on-Editing-your-Site) if this is unclear.
 
 ## Optional: Custom Domain
 
