@@ -10,7 +10,11 @@ layout: default
   <div class="notes-entry-container note">
   <div class="content">
 
-      {% include anchor_headings.html html=content anchorBody="#" %}
+  {% if page.toc == Y or page.toc == y %}  
+            {% include toc.html html=content sanitize=true ordered=true class="inline_toc" id="my_toc" h_min=2 h_max=3 %}
+  {% endif %}
+
+        {% include anchor_headings.html html=content anchorBody="#" %}
 
    </div>
   </div>
