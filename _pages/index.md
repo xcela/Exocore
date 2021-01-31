@@ -11,18 +11,18 @@ No downloads or installation required, sites hosted and served through Github & 
 
 ## Features
 
-- Based on Jekyll, a static website generator with simple & responsive design
-- Supports Markdown or HTML notes
+- Based on Jekyll, a static, standards-compliant website generator with lightweight & responsive design
+- Supports Markdown and HTML notes
 - Supports Roam/Obsidian-style double bracket link syntax to other notes
 - Creates backlinks to other notes automatically
 - Features link previews on hover
-- Includes graph visualization of the notes and their links
+- Features graph visualization of the notes and their links
 
 ## Effortless Launch
 
 This has been designed to be as easy as possible to launch onto a live host at no-charge, through hosting on Github Pages and site serving through Netlify. Files can be accessed and edited from anywhere through Github and will be automatically updated live on the site.
 
-Follow the [Step by step guide](step-by-step-guide.html) to have your site launched in minutes.
+Follow the [Step by step guide](step-by-step-tutorial) to have your site launched in minutes.
 
 ## License
 
