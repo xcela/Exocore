@@ -27,7 +27,10 @@ $font-family-monospace: ”Iosevka Term SS03”,”IBM Plex Mono”,”Fira Code
 /* === Body === */
 
 article {
-  background-color: #f0e0d6;
+  background-color: #    box-shadow: 1px 1px 0px #d9bfb7;
+;
+      box-shadow: 1px 1px 0px #d9bfb7;
+
 }
 
 body {
@@ -68,7 +71,7 @@ ul {
 
 hr {
   margin:1.5em;
-  color: d9bfb7;
+  color: #d9bfb7;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -80,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
    text-align:left
 }
 
-.title-text { color:#cc1105; font-weight:bold; line-height:1em; margin:0em;}
+.title-text { color:#cc1105; font-weight:bold; line-height:1em; margin:0em; text-align:center; padding:1em;}
 
 h1 {color:#117743; font-weight:bold; }
 h2 {color:#117743; font-weight:normal; font-weight:bold;}
@@ -141,8 +144,8 @@ nav a {
 /* === Page Formatting === */
 
 .title {
-  border: $color-border; padding: 0em;
-    box-shadow: 1px 1px 0px #d9bfb7;
+  border: $color-border; 
+  padding: 0em;
   background-color: $background;
   margin-bottom:1em;
   text-align:center;
@@ -169,7 +172,6 @@ nav {
 
 .border, .notes-entry-container {
   border: $color-border; 
-    box-shadow: 1px 1px 0px #d9bfb7;
   padding: 2em;
    @media (max-width: 700px) {
     border:none;
@@ -181,7 +183,6 @@ nav {
 
 .graph {
   border: $color-border; padding: 2em;
-    box-shadow: 1px 1px 0px #d9bfb7;
   margin:2em; line-height: 1.1em;
 }
 
@@ -199,7 +200,6 @@ nav {
 .sidenote {
   background-color: $background;
   border: $color-border;
-    box-shadow: 1px 1px 0px #d9bfb7;
   padding: 1em;  
   padding-top:0em;
 }
@@ -207,7 +207,6 @@ nav {
 .backlink-box {
   background-color: $background;
   border: $color-border;
-    box-shadow: 1px 1px 0px #d9bfb7;
   padding:1em;
   line-height:1em;
 }
@@ -224,7 +223,6 @@ nav {
 
 .note {
   border: $color-border;
-    box-shadow: 1px 1px 0px #d9bfb7;
   padding:1em; padding-top:0em; 
   background-color: $background;
 }
@@ -256,9 +254,10 @@ nav {
 
 /* Table of Contents */
 .toc-container{
+    padding:1em;
   border: $color-border; 
     box-shadow: 1px 1px 0px #d9bfb7;
-  background-color: $background;
+  background-color: #ffffee;
   padding: 1em;
   padding-bottom: 0em;
   margin: 1em;
@@ -290,6 +289,7 @@ nav {
 time {
   border: $color-border; 
     box-shadow: 1px 1px 0px #d9bfb7;
+    background-color: $background;
   padding: 1em;
   display: block;
   font-family: $font-family-monospace;
@@ -317,6 +317,11 @@ license {
 }
 
 .license {
+  border: $color-border; 
+    box-shadow: 1px 1px 0px #d9bfb7;
+    background-color: #ffffee;
+  padding: 1em;
+  display: block;
   padding:1em; margin-top:1em; max-width: 28em; margin: 0 auto; text-align:center;
 }
 
