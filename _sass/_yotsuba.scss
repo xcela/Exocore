@@ -79,7 +79,7 @@ h1,h2,h3,h4,h5,h6 {
   text-align:left
 }
 
-.title-text { color:#cc1105; font-weight:bold; line-height:1em; margin:0em; text-align:center; padding:1em; padding-bottom:0.5em;}
+.title-text { color:#cc1105; font-weight:bold; font-size:1.em; line-height:1em; margin:0em; text-align:center; padding:1em; padding-bottom:0.5em; text-decoration:none;}
 
 h1 {color:#117743; font-weight:bold; text-decoration:underline;}
 h2 {color:#117743; font-weight:bold;}
@@ -90,6 +90,10 @@ code {
   color: $color-code;
   font-family: $font-family-monospace;
   font-size: 1em;
+}
+
+PRE {
+  margin-left: 1em;
 }
 
 *:focus {
@@ -283,6 +287,8 @@ nav {
   margin:0em;
   color:$color-secondary;
   text-align:center;
+  font-size:1em;
+  text-decoration:none;
 }
 
 .toc-container ol li  {
