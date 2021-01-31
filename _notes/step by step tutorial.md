@@ -1,7 +1,7 @@
 ---
 title: Step-by-step Tutorial
 published: true
-toc: Y
+toc: true
 ---
 
 You can set up a public [[exocortex]] of your own in 5 minutes, with no code or installation, using entirely free services to host your site on the web. 
