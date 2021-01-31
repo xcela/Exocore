@@ -9,6 +9,11 @@ layout: default
 
   <div class="notes-entry-container note">
   <div class="content">
+
+  {% if page.toc == Y %}  
+            {% include toc.html html=content sanitize=true ordered=true class="inline_toc" id="my_toc" h_min=2 h_max=3 %}
+  {% endif %}
+
   {{ content }}
    </div>
   </div>
@@ -16,7 +21,7 @@ layout: default
 
 <div class="sidenote">
   <side>
-      <h1>Interlinked pages:</h1>
+    <h1>Interlinked pages:</h1>
       {% if page.backlinks.size > 0 %}
       <div class="backlinks-title">
       {% for backlink in page.backlinks %}
