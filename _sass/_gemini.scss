@@ -218,7 +218,7 @@ hr {margin:0em;}
 /* Table of Contents */
 .toc-container{
   display: block;
-  margin-left:0em
+  margin-left:0em;
     @media (max-width: 700px) {
   max-width:100%;
   }
@@ -264,6 +264,11 @@ license {
 }
 
 .license {
-  padding:1em; margin-top:1em; max-width: 28em; margin: 0 auto;
+  padding:1em; 
+  margin-top:1em; 
+  max-width: 28em;
 }
-
+.footer-nav a, .license a {
+  background-color: none;
+  color: white;
+}
