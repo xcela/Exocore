@@ -1,3 +1,3 @@
 [build]
-  command = "jekyll build install -- trace"
+  command = "jekyll build install --trace"
   publish = "_site"
