@@ -10,7 +10,7 @@ $border-radius: 0px;
 $color-box-background: black;
 
 /* --- Text Colors --- */
-$color-text: grey;
+$color-text: #cad1d8;
 $color-subtext: white;
 $color-code: lightyellow;
 $internal-links: $color-text;
@@ -67,8 +67,6 @@ ul {
 font:inherit;
 font-weight:bold;
 color:$color-subtext;
-    color: black;
-    background-color: #eec589;
 }
 .title-text{text-transform:uppercase;margin-top:1em;margin-bottom:1em;}
 
