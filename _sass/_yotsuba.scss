@@ -207,6 +207,15 @@ nav {
   padding-top:0em;
 }
 
+.backlinks-title {
+    color:blue;
+}
+
+.sidenote a:hover{
+    font-weight: normal !important;
+    text-decoration:underline
+}
+
 .backlink-box {
   background-color: #ffffee;
   border: $color-border;
