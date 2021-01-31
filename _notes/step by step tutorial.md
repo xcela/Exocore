@@ -1,19 +1,16 @@
 ---
-title: Step-by-step Tutorial
+title: Step-by-step Exocore Install on Github + Netlify
 published: true
 toc: true
 ---
 
-You can set up a public [[exocortex]] of your own in 5 minutes, with no code or installation, using entirely free services to host your site on the web. 
+You can set up a personal website as a [[public exocortex]] with no code or installations with this 5 minute guide, using entirely free services to host your site on the web. 
 
-All pages are converted from simple, non-code [[Markdown]] syntax, so you can focus purely on writing. 
-
-The end result will look similar to this:
-
+All pages are converted from simple, non-code [[Markdown]] syntax, so you can focus purely on writing. The end result will look identical to this page.
 
 # Tutorial
 
-## Introduction
+## Background
 
 Github will be used as a cloud content management system - it's convenient to upload updates to, accessible and editable from anywhere, and keeps full version history of changes as well as provides easy options for back-up.
 
@@ -25,11 +22,9 @@ All services are entirely free besides the custom domain.
 
 ## Create Github Account
 
-First, create an account on [github.com](https://github.com/) if you do not already have one.
+First, create an account on [github.com](https://github.com/join) if you do not already have one. Remember to [make your email private](https://saraford.net/2017/02/19/how-to-hide-your-email-address-in-your-git-commits-but-still-get-contributions-to-show-up-on-your-github-profile-050/) in settings.
 
-If you are unfamiliar with Github and do not have an account, please first follow the [[Github Tutorial for Exocore]] where you will be handheld through the steps to [create a Github account], [install Github] and [using Github for site updates].
-
-Continue below if you have an account ready.
+Continue below when you have an account ready.
 
 ## Install the Exocore template to GitHub and Netlify
 
@@ -37,43 +32,29 @@ Open our [One-click installation](https://app.netlify.com/start/deploy?repositor
 
 Steps:
 1. Select `Connect to Github`
-2. Login and select `Authorize Application`
-3. Name your repository - this is only for your own reference
+2. Login to Github and select `Authorize Application`
+3. Name your repository - this is your own reference
 4. Select `Deploy site`
 
 Netlify will now take about 5 minutes for the initial build of the site. If you want, you can watch the status of the build by clicking ``Production: master@HEAD`` under **Production Deploys**.
 
-Once it's complete, the Production status will change to **Published**, and you will be able to click the [site-name].netlify.app link to see your live site.
+Once it's complete, the Production status will change to **Published**, and you will be able to click the `[site-name].netlify.app` link to see your site.
 
 The site's master files will also appear in your Github account, under the repository name you selected, e.g. `github.com/account-name/repository-name`. Changes here will go live on the site automatically.
 
+Your site is now officially live, available for anyone to view at `[site-name].netlify.app.`, but there are some settings we should adjust before moving forward.
+
 ### Change your site name
 
-Your site will be available for anyone to view at `[site-name].netlify.app.`
+Change the default generated site name to whatever you'd like by navigating to `Site settings > Site details > Change site name`.
 
-You can change the default generated site name to whatever you'd like by navigating to Site settings > Site details > Change site name, as long as its not already taken by another Netlify site, to get a new url.
+### Add meta data
 
-## Editing your Site
-
-The page files are all hosted on your Github site repository and can be edited in a multitude of ways. If you are familiar and comfortable with Github, you can use it as normal to download the files on your computer, edit it with your preferred text editor, and push updates to the site repository.
-
-However, if this is not a workflow you are used to, I recommend [Prose](https://prose.io/), a web based Markdown editor connected to your Github account, so you can manage your site freely from any machine without any installations.
-
-### Using Prose.io
-
-Simply navigate to [Prose.io](https://prose.io/) and login with your Github account. You will see your site listed under *Explore Projects*. 
-
-Enter it and you will find the `_notes` and `_pages` folders where you can edit all your posts.
-
-Formatting is colored for Markdown syntax with preview available.
-
-When you're done editing a post, simply hit save in the right sidebar. The changes will propagate on your live site in a few seconds.
+Open `_config.yml` and replace the example content with your site title and url. You can edit this file directly in your Github repository, see [the section on Prose.io below](#Using-Prose-io).
 
 ## Optional: Custom Domain
 
 Custom domains can be added for a better look and more memorable url, but you will need to purchase one. If you already have a domain, follow the steps in [Configuring a Domain Purchased Elsewhere](#Configuring-a-Domain-Purchased-Elsewhere) 
-
-Make sure to change your url in `_config.yml` to your new url.
 
 ### Purchase Domain on Netlify
 
@@ -110,7 +91,7 @@ SSL (https) will be configured automatically.
 
 ## Usage
 
-Your site is now live and ready to be used!
+Your site is now full ready to be used.
 
 Some things to keep in mind:
 
@@ -120,6 +101,24 @@ Some things to keep in mind:
 * Creating a new note is as simple as creating a new file with a `.md` filename in the `_notes` folder. Same goes for pages.
 * Linking to other notes or pages is done by writing double brackets around the title of the linked note, e.g. `[[Writing Posts]]` links to [[Writing Posts]]
 
-That's all you need to get started! You can follow up with more details on [[Writing Posts]] and [[Markdown Syntax]].
+That's all you need to get started. You can follow up with more details on [[Writing Posts]] and [[Markdown Syntax]].
 
 You may also consider [[changing themes]], [[site customization]] and [[self-hosting your Exocore]].
+
+### Note on Editing your Site
+
+The page files are all hosted on your Github site repository and can be edited in a multitude of ways. If you are familiar and comfortable with Github, you can use it as normal to download the files on your computer, edit it with your preferred text editor, and push updates to the site repository.
+
+However, if this is not a workflow you're used to, I recommend [Prose](https://prose.io/), a web based Markdown editor connected to your Github account, so you can manage your site freely from any machine without any installations.
+
+#### Using Prose.io
+
+Navigate to [Prose.io](https://prose.io/) and login with your Github account. You will see your site listed under *Explore Projects*. 
+
+Enter it and you will find the `_notes` and `_pages` folders where you can edit all your posts.
+
+Formatting is colored for Markdown syntax with preview available.
+
+When you're done editing a post, simply hit save in the right sidebar. The changes will propagate on your live site in a few seconds.
+
+Use this site from anywhere by logging in with your Github account. Everything in the back-end is now set up so you can manage your site completely within Prose.
