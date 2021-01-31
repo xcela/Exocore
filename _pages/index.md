@@ -27,3 +27,7 @@ Please follow the [[Step-by-step tutorial]].
 ## License
 
 Source code is available under the [Viral Public License](LICENSE.md).
+
+---
+
+An [XCELA: New Computing Reasearch Group](https://xcela.org) project.
