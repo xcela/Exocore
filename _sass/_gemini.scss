@@ -12,7 +12,7 @@ $color-box-background: black;
 /* --- Text Colors --- */
 $color-text: #cad1d8;
 $color-subtext: white;
-$color-code: slateblue;
+$color-code: grey;
 $internal-links: $color-text;
 $external-links: $color-subtext;
 $invalid-links: $internal-links;
@@ -74,11 +74,11 @@ color:$color-subtext;
 .title-text{text-transform:uppercase;margin-top:1em;margin-bottom:1em;}
 
 h1::before {  content:"# "; }
-h2::before {  content:"## ";}
-h3::before {  content:"### ";}
-h4::before {  content:"#### ";}
-h5::before {  content:"##### ";}
-h6::before {  content:"###### ";}
+h2::before {  content:"##";}
+h3::before {  content:"###";}
+h4::before {  content:"####";}
+h5::before {  content:"#####";}
+h6::before {  content:"######";}
 
 code {
   color: #color-code;
@@ -164,7 +164,7 @@ nav {
   }
 }
 
-hr {margin:0em;}
+hr {margin:0em; max-width: 30em;}
 
 /* -- Interlinks -- */
 
@@ -250,7 +250,7 @@ time {
 }
 
 .time {
-  margin-top:1em;
+  margin-top:1em; marg-left:1em;
 }
 
 .footer-nav {
