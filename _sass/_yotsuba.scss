@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6 {
   text-align:left
 }
 
-.title-text { color:#cc1105; font-weight:bold; font-size:1em; line-height:1em; margin:0em; text-align:center; padding:1em; padding-bottom:0.5em; text-decoration:none !important;}
+.title-text { color:#cc1105; font-weight:bold; font-size:1.2em; line-height:1em; margin:0em; text-align:center; padding:1em; padding-bottom:0.5em; text-decoration:none !important;}
 
 h1 {color:#117743; font-weight:bold; text-decoration:underline;}
 h2 {color:#117743; font-weight:bold;}
@@ -302,6 +302,7 @@ nav {
     box-shadow: 1px 1px 0px #d9bfb7;
   background-color: #ffffee;
   margin: 1em;
+  margin-top:2em;
   margin: 0 auto;
   display: block;
   max-width: 50%;
