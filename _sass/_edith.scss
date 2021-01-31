@@ -118,10 +118,16 @@ a {
 nav a {
   color: blue !important;
 }
-.anchor {
+.anchor a {
   color: $color-text;
   cursor: pointer;
 }
+.anchor a:hover{
+  color: $internal-links;
+    cursor: pointer;
+
+}
+
 .toc-container a {
   cursor: pointer;
 }
