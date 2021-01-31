@@ -178,7 +178,7 @@ hr {margin:0em; max-width: 30em;}
 }
 
 .sidenote{
-  max-width:28em;
+  max-width:43em;
 }
 .sidenote h1{
   margin-bottom: 1em
@@ -250,11 +250,11 @@ time {
 }
 
 .time {
-  margin-top:1em; marg-left:1em;
+  margin-top:1em; 
 }
 
 .footer-nav {
-  margin:1em;
+  margin-top:1em;
   font-size: 0.8em;
   color: $color-text;
 }
@@ -264,7 +264,6 @@ license {
 }
 
 .license {
-  padding:1em; 
   margin-top:1em; 
   max-width: 28em;
   font-size: 0.8em;
