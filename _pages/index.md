@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-![/assets/image.jpg]
+![study-monk](/assets/image.jpg)
 
 Preconfigured template to roll out your own no-code, no-cost public exocortex from documents written in simple Markdown syntax, including interlinking, generated backlinks and a nodal graph-rendering. Site's are rendered in fast, responsive, standards-compliant static HTML. 
 
