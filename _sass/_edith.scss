@@ -117,7 +117,10 @@ nav a {
 /* === Page Formatting === */
 
 .title {
-margin-bottom:0em; padding-bottom:0em;
+  margin-bottom:1em;
+}
+.title-text {
+margin:0em; padding:0em;
 }
 
 nav {
