@@ -184,19 +184,15 @@ border: $color-border; padding: 2em;
 .backlinks-none{
   font-size: 0.9em; text-align:center;
 }
-.content {
-  margin:2em; line-height: 1.1em;
-}
+
 .note {
   border: $color-border;
   padding:1em; padding-top:0em; 
 }
-#note {
-  margin:1em;
-  margin-left:2em;
+.content {
+  margin-left:2em; margin-right:1em; line-height: 1.1em;
 }
-
-.note p {
+.content p {
   margin-left:1em;
 }
 
