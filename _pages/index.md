@@ -7,9 +7,9 @@ permalink: /
 
 ![study-monk](/assets/image.jpg)
 
-Preconfigured template to roll out your own no-code, no-cost public exocortex from documents written in simple Markdown syntax, including interlinking, generated backlinks and a nodal graph-rendering. Site's are rendered in fast, responsive, standards-compliant static HTML. 
+Preconfigured template to roll out your own no-code, no-cost personal website as a public exocortex from documents written in simple Markdown syntax, including interlinking, generated backlinks and a nodal graph-rendering. Site's are rendered in fast, responsive, standards-compliant static HTML. 
 
-No downloads or installation required, sites hosted and served through Github & Netlify - setup takes 5 minutes.
+No downloads or installation required, site is hosted and served through Github & Netlify - automated setup takes 5 minutes.
 
 ## Features
 
@@ -24,7 +24,7 @@ No downloads or installation required, sites hosted and served through Github & 
 
 This has been designed to be as easy as possible to launch onto a live host at no-charge, through hosting on Github Pages and site serving through Netlify. Files can be accessed and edited from anywhere through Github and will be automatically updated live on the site.
 
-With only a [Github account](https://github.com/join), you can use our [One-click Installation](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore) to go live in minutes. Follow the [Step by step guide](step-by-step-tutorial) if you need handholding.
+With a [Github account](https://github.com/join), you can use our [One-click Installation](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore) to go live in minutes. Follow the [Step by step guide](step-by-step-tutorial) if you need handholding.
 
 ## License
 
