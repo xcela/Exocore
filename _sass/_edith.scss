@@ -133,6 +133,13 @@ nav {
  margin: 1em 0 1em;
 }
 
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
 .border, .notes-entry-container {
 border: $color-border; padding: 2em;
    @media (max-width: 700px) {
