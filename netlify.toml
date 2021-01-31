@@ -1,3 +1,3 @@
 [build]
-  command = "gem install jekyll-last-modified-at jekyll-readme-index jekyll-feed jekyll-pdf-embed jekyll-sitemap jekyll-redirect-from jekyll-analytics"
+  command = "jekyll bundle install"
   publish = "_site"
