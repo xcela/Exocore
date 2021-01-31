@@ -106,7 +106,7 @@ Some things to keep in mind:
 * Creating a new note is as simple as creating a new file with a `.md` filename in the `_notes` folder. Same goes for pages.
 * Linking to other notes or pages is done by writing double brackets around the title of the linked note, e.g. `[``[Writing Posts]]` links to [[Writing Posts]]
 
-That's all you need to get started. You can follow up with more details on [[Writing Posts]] and [[Introduction to Markdown]].
+That's all you need to get started. You can follow up with more details on [[writing posts]] and [[introduction to markdown]].
 
 You may also consider [[changing themes]], [[site customization]] and [[self-hosting Exocore]].
 
