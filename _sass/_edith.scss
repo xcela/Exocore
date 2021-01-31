@@ -117,9 +117,12 @@ a {
 nav a {
   color: blue !important;
 }
-
 .anchor {
   color: $color-text;
+  cursor: pointer;
+}
+.toc-container a {
+  cursor: pointer;
 }
 
 /* === Page Formatting === */
