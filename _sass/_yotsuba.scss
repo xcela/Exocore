@@ -121,7 +121,7 @@ a {
        text-decoration:underline; 
     cursor: pointer;
       }
-      notes-entry-container a.internal-link::before{
+      .notes-entry-container a.internal-link::before{
       content:"»";
       }
 .invalid-link, .invalid-link-brackets {
