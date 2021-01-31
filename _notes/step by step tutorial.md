@@ -122,3 +122,7 @@ Formatting is colored for Markdown syntax with preview available.
 When you're done editing a post, simply hit save in the right sidebar. The changes will propagate on your live site in a few seconds.
 
 Use this site from anywhere by logging in with your Github account. Everything in the back-end is now set up so you can manage your site completely within Prose.
+
+## Issues & Errors
+
+Exocore is still a work in progress. If you run into any problems, goto the [Exocore repository's issues page](https://github.com/xcela/exocore/issues) and create a New Issue describing the problem.
