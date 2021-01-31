@@ -36,7 +36,7 @@ body {
   padding: 4vh 6vw;
   overflow-x: hidden;
   color: $color-text;
-  font-size: 1.15em;
+  font-size: 1.1em;
   max-width: 43em;
   background-color:$background;
 }
@@ -69,9 +69,9 @@ hr {
 .title-text, h1,h2,h3,h4,h5,h6 {
 font:inherit;
 font-weight:bold;
-color:#color-subtext;
+color:$color-subtext;
 }
-.title-text{text-transform:upper;}
+.title-text{text-transform:uppercase;margin-top:1em;margin-bottom:1em;}
 
 h1::before {  content:"#"; }
 h2::before {  content:"##";}
@@ -97,18 +97,25 @@ a {
   color: white;
   font-weight: strong;
   text-decoration:underline;
-  &:hover {
-    background-color: black;
-    color:white;
-    text-decoration:underline;
-    cursor: alias;
   }
-  &.internal-link {
+  .footer-nav a, .license a{
+  background-color: inherit;
+  color: white;
+}
+nav a {
+  color:white !important; 
+  background-color:inherit !important;
+  }
+.internal-link {
     color: black;
     background-color: #eec589;
     font-weight:strong;
     cursor: pointer;
   }
+a:hover {
+    background-color: red !important;
+    color:white;
+    cursor: alias;
 }
 .invalid-link, .invalid-link-brackets {
   color: $invalid-links;
@@ -118,10 +125,7 @@ a {
 .sidenote a, nav a {
     font-weight: normal !important;
 }
-nav a {
-  color: #color-text !important;
-  background-color:none !important;
-}
+
 .anchor a {
   color: $color-text !important;
   cursor: pointer;
@@ -240,16 +244,13 @@ hr {margin:0em;}
 /* -- Footer -- */ 
 
 time {
-  padding: 1em;
   display: block;
   font-family: $font-family-monospace;
   color: $color-subtext;
-  text-transform: uppercase;
-  font-size:1.2em;
 }
 
 .time {
-  margin-top:1.5em;
+  margin-top:1em;
 }
 
 .footer-nav {
@@ -260,15 +261,15 @@ time {
 
 license {
   font-family: $font-family-monospace;
-  font: 1.1em;
 }
 
 .license {
   padding:1em; 
   margin-top:1em; 
   max-width: 28em;
+  font-size: 0.8em;
 }
 .footer-nav a, .license a {
-  background-color: none;
+  background-color: none !important;
   color: white;
 }
