@@ -80,7 +80,8 @@ h3 {text-transform:none;font-weight:normal; text-decoration:underline;text-align
 h4 {text-transform:none;font-weight:normal; font-size:1em; text-align:left}
 
 code {
-  color: $color-code;
+  color: white;
+  background-color:blue;
   font-family: $font-family-monospace;
   font-size: 1.1em;
 }
