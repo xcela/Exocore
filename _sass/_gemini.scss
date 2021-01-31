@@ -1,0 +1,285 @@
+/* ### Theme: Gemini ### */
+
+/* === Base Settings === */
+
+/* --- Body Colors --- */
+
+$background: #14171a;
+$color-border: 1px solid white;
+$border-radius: 0px;
+$color-box-background: black;
+
+/* --- Text Colors --- */
+$color-text: #cad1d8;
+$color-subtext: white;
+$color-code: pink;
+$internal-links: $color-text;
+$external-links: $color-subtext;
+$invalid-links: $internal-links;
+$color-primary: white;
+$color-secondary: blue;
+
+/* --- Font Family --- */
+$font-family-sans-serif: Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI,  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+$font-family-serif: serif;
+$font-family-monospace: ”IBM Plex Mono”,”Fira Code”,”Fira Mono”,”Roboto Mono”,”Droid Sans Mono”,Monaco,Consolas,Courier,monospace;;
+
+/* === Body === */
+
+body {
+  box-sizing: content-box;
+  font-family: $font-family-monospace;
+  margin: 0 auto;
+  line-height: 1.5;
+  letter-spacing:-1px;
+  padding: 4vh 6vw;
+  overflow-x: hidden;
+  color: $color-text;
+  font-size: 1rem;
+  max-width: 43em;
+  background-color:$background;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 75vh;
+  border-radius: $border-radius;
+}
+
+blockquote {
+  padding: 1em;
+  margin: 0;
+  font-size: 1em;
+  font-family: $font-family-serif;
+    font-style: italic;
+  background: $color-box-background;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+hr {
+  margin:1.5em;
+}
+
+.title-text, h1,h2,h3,h4,h5,h6 {
+font:inherit;
+font-weight:bold;
+color:#color-subtext;
+}
+
+h1::before {  content:"#"; }
+h2::before {  content:"##";}
+h3::before {  content:"###";}
+h4::before {  content:"####";}
+h5::before {  content:"#####";}
+h6::before {  content:"######";}
+h3 {margin-left:1em;}
+h4, h5, h6 {margin-left:2em;}
+
+code {
+  color: white;
+  font-family: $font-family-monospace;
+  font-size: 1.1em;
+}
+
+*:focus {
+  background: white !important;
+  color: black !important;
+}
+
+/* -- Links -- */
+
+a {
+  color: black;
+  background-color: #eec589;
+  text-decoration:none;
+  &:hover {
+    text-decoration: underline;
+    cursor: alias;
+  }
+  &.internal-link {
+    color: black;
+    background-color: #eec589;
+    font-weight:bold;
+    cursor: pointer;
+  }
+}
+.invalid-link, .invalid-link-brackets {
+  color: $invalid-links;
+  cursor: help;
+}
+
+.sidenote a, nav a {
+    font-weight: normal !important;
+}
+nav a {
+  color: #color-text !important;
+}
+.anchor a {
+  color: $color-text;
+  cursor: pointer;
+}
+.anchor a:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.toc-container a {
+  cursor: pointer;
+}
+
+/* === Page Formatting === */
+
+nav {
+ color: $color-text;
+ font-weight: normal; 
+ padding: 1em;
+ margin: 1em 0 1em;
+}
+
+.alignleft {
+  float: left;
+    text-align:left;
+}
+.alignright {
+  float: right;
+   text-align:right;
+}
+
+.border {
+  border: $color-border; 
+  padding: 2em;
+   @media (max-width: 700px) {
+    border:none;
+    padding:none;
+  }
+}
+
+/* -- Interlinks -- */
+
+.graph {
+  margin:2em; line-height: 1.1em;
+}
+
+.graph-container {
+  margin:1em;
+}
+
+.sidenote{
+  max-width:28em; margin: 0 auto;
+}
+.sidenote h1{
+  margin-bottom: 1em
+}
+
+.sidenote {
+  background-color: $background;
+  padding: 1em;  
+  padding-top:0em;
+}
+
+.backlink-box {
+  background-color: $background;
+  border: 1px solid $color-text;
+  padding:1em;
+  line-height:1em;
+}
+
+.backnote-title {
+  display: grid; grid-gap: 0.2em; grid-template-columns: repeat(1fr);
+}
+.backlinks-excerpt{
+  font-size: 0.9em; color: $color-subtext;
+}
+.backlinks-none{
+  font-size: 0.9em; text-align:center;
+}
+
+.note {
+  padding:1em;
+  padding-top:0em; 
+}
+.content {
+  margin-left:2em; 
+  margin-right:1em; 
+  line-height: 1.1em;
+  padding-top:0.5em;
+}
+.content p {
+  margin-left:1em;
+}
+
+
+.notes-entry-container {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-areas:
+    "content"
+    "side";
+  @media (min-width: 700px) {
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "content side";
+  }
+}
+
+
+/* Table of Contents */
+.toc-container{
+  padding: 1em;
+  padding-bottom: 0em;
+  margin: 1em;
+  margin: 0 auto;
+  display: block;
+  max-width: 50%;
+    @media (max-width: 700px) {
+  max-width:100%;
+  }
+}
+.toc-container h1 {
+  margin:0em;
+}
+
+.toc-container ol li  {
+  list-style-type: numeral;
+}
+
+.toc-container ol li li {
+  list-style-type: lower-latin;
+}
+
+
+
+/* -- Footer -- */ 
+
+time {
+  padding: 1em;
+  display: block;
+  font-family: $font-family-monospace;
+  color: $color-subtext;
+  text-transform: uppercase;
+  font-size:1.2em;
+}
+
+.time {
+  margin-top:1.5em;
+}
+
+.footer-nav {
+  margin:1em;
+  font-size: 0.8em;
+  color: $color-text;
+}
+
+license {
+  font-family: $font-family-monospace;
+  font: 1.1em;
+}
+
+.license {
+  padding:1em; margin-top:1em; max-width: 28em; margin: 0 auto;
+}
+
