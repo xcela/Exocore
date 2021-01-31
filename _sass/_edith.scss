@@ -72,7 +72,7 @@ h1,h2,h3,h4,h5,h6 {
   margin-left:0em;
 }
 
-.title-text { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin-top:0em; line-height:0em;}
+.title-text { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin:0em; line-height:0em;}
 
 h1 {text-transform:uppercase; text-align:center;font-weight:bold; }
 h2 {text-transform:uppercase;font-weight:normal; text-decoration:underline; text-align:left}
@@ -112,6 +112,7 @@ a {
 
 nav a {
   color: blue !important;
+  font-weight: normal !important;
 }
 
 
@@ -184,7 +185,7 @@ border: $color-border;
   margin:2em; line-height: 1.1em;
 }
 .note {
-  padding:1em; padding-top:0em; border:1px solid white; 
+  padding:1em; padding-top:0em; border:1px solid white; margin-left:1em;
 }
 .note p {
   margin-left:1em;
