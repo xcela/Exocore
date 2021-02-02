@@ -127,7 +127,7 @@ a:hover {
   cursor: help;
 }
 
-.sidenote a, nav a {
+.sidearticle a, nav a {
     font-weight: normal !important;
 }
 
@@ -195,14 +195,14 @@ hr {margin:0.5em; max-width: 30em;}
   margin:1em;
 }
 
-.sidenote{
+.sidearticle{
   max-width:33em;
 }
-.sidenote h1{
+.sidearticle h1{
   margin-bottom: 1em
 }
 
-.sidenote {
+.sidearticle {
   background-color: $background;
   margin-top:1em;
     margin-bottom: 1em
@@ -215,7 +215,7 @@ hr {margin:0.5em; max-width: 30em;}
   line-height:1em;
 }
 
-.backnote-title {
+.backarticle-title {
   display: grid; grid-gap: 0.2em; grid-template-columns: repeat(1fr);
 }
 .backlinks-excerpt{
@@ -225,7 +225,7 @@ hr {margin:0.5em; max-width: 30em;}
   font-size: 0.9em; text-align:center;
 }
 
-.notes-entry-container {
+.articles-entry-container {
   display: grid;
   grid-gap: 2em;
   grid-template-areas:

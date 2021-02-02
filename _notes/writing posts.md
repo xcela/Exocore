@@ -1,37 +1,37 @@
 ---
-title: Writing notes
+title: Writing articles
 ---
 
 ### Welcome!
 
-You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
+You'll find it in the [`articles/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_articles) directory.
 
 ### Link syntax
 
-To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
+To link to another article, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_articles/your-first-article.md#link-syntax) to see the underlying syntax).
 
-- Using the note title - ``` [[a note about cats]]``` - [[a note about cats]]
-- Using the note's filename: ```[[cats]]``` - [[cats]]
-- Using the note's title, with a label: ```[[A note about cats|link to the note about cats using the note title]]``` - [[A note about cats|link to the note about cats using the note title]]
-- Using the note's filename, with a label: ```[[cats|link to the note about cats using the note's filename]]``` - [[cats|link to the note about cats using the note's filename]]
+- Using the article title - ``` [[a article about cats]]``` - [[a article about cats]]
+- Using the article's filename: ```[[cats]]``` - [[cats]]
+- Using the article's title, with a label: ```[[A article about cats|link to the article about cats using the article title]]``` - [[A article about cats|link to the article about cats using the article title]]
+- Using the article's filename, with a label: ```[[cats|link to the article about cats using the article's filename]]``` - [[cats|link to the article about cats using the article's filename]]
 
-In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: ```[[there is no note that matches this link]].``` - [[there is no note that matches this link]].
+In all cases, if the double-bracket link does not point to a valid article, the double brackets will still be shown, like this: ```[[there is no article that matches this link]].``` - [[there is no article that matches this link]].
 
-Alternatively, you can use regular [Markdown syntax](https://www.markdownguide.org/getting-started/) for links, with a relative link to the other note, like this: ```[this is a Markdown link to the note about cats](/cats){: .internal-link}``` - [this is a Markdown link to the note about cats](/cats){: .internal-link}. Don't forget to use the `.internal-link` class to make sure the link is styled as an internal link (without the little arrow).
+Alternatively, you can use regular [Markdown syntax](https://www.markdownguide.org/getting-started/) for links, with a relative link to the other article, like this: ```[this is a Markdown link to the article about cats](/cats){: .internal-link}``` - [this is a Markdown link to the article about cats](/cats){: .internal-link}. Don't forget to use the `.internal-link` class to make sure the link is styled as an internal link (without the little arrow).
 
 Of course, you can also link to external websites, like this: ```[this is a link to Wikipedia](https://wikipedia.org/)``` [this is a link to Wikipedia](https://wikipedia.org/).
 
 ### Automatic bi-directional links
 
-Notice in the "Interlinked posts" section at the bottom of the page, there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.
+Notice in the "Interlinked posts" section at the bottom of the page, there is another article linking to this article. This is a bi-directional link, and those are automatically created when you create links to other articles.
 
 ### Link previews
 
-If you're on a device with mouse support, try hovering your mouse on internal links to preview the notes: [[a note about cats]].
+If you're on a device with mouse support, try hovering your mouse on internal links to preview the articles: [[a article about cats]].
 
 ### Header
 
-All notes should begin with a header of the top showing title:
+All articles should begin with a header of the top showing title:
 ```
 ---
 Tite: Page Title

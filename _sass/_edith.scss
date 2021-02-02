@@ -116,7 +116,7 @@ a {
   cursor: help;
 }
 
-.sidenote a, nav a {
+.sidearticle a, nav a {
     font-weight: normal !important;
 }
 nav a {
@@ -171,7 +171,7 @@ nav {
    text-align:right;
 }
 
-.border, .notes-entry-container {
+.border, .articles-entry-container {
   border: $color-border; 
   padding: 2em;
    @media (max-width: 700px) {
@@ -191,14 +191,14 @@ nav {
   margin:1em;
 }
 
-.sidenote{
+.sidearticle{
   max-width:28em; margin: 0 auto;
 }
-.sidenote h1{
+.sidearticle h1{
   margin-bottom: 1em
 }
 
-.sidenote {
+.sidearticle {
   background-color: $background;
   border: $color-border;
   padding: 1em;  
@@ -213,7 +213,7 @@ nav {
   line-height:1em;
 }
 
-.backnote-title {
+.backarticle-title {
   display: grid; grid-gap: 0.2em; grid-template-columns: repeat(1fr);
 }
 .backlinks-excerpt{
@@ -223,7 +223,7 @@ nav {
   font-size: 0.9em; text-align:center;
 }
 
-.note {
+.article {
   border: $color-border;
   padding:1em; padding-top:0em; 
 }
@@ -240,7 +240,7 @@ nav {
 
 
 /* Toggle Backlinks on Sidebar 
-.notes-entry-container {
+.articles-entry-container {
   display: grid;
   grid-gap: 2em;
   grid-template-areas:

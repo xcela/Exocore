@@ -63,7 +63,7 @@ However, if this is not a workflow you are used to, I recommend [Prose](https://
 
 Simply navigate to [Prose.io](https://prose.io/) and login with your Github account. You will see your site listed under *Explore Projects*. 
 
-Enter it and you will find the `_notes` and `_pages` folders where you can edit all your posts.
+Enter it and you will find the `_articles` and `_pages` folders where you can edit all your posts.
 
 Formatting is colored for Markdown syntax with preview available.
 
@@ -114,11 +114,11 @@ Your site is now live and ready to be used!
 
 Some things to keep in mind:
 
-* The site is separated into note and pages. Notes are the web of articles/posts that forms the body of your site; pages are more permanent structure, like the homepage or about page.
+* The site is separated into article and pages. articles are the web of articles/posts that forms the body of your site; pages are more permanent structure, like the homepage or about page.
 * Pages are located in `_pages/`. Your homepage is `index.md`.
-* Notes are located in `_notes/`.
-* Creating a new note is as simple as creating a new file with a `.md` filename in the `_notes` folder. Same goes for pages.
-* Linking to other notes or pages is done by writing double brackets around the title of the linked note, e.g. `[[Writing Posts]]` links to [[Writing Posts]]
+* articles are located in `_articles/`.
+* Creating a new article is as simple as creating a new file with a `.md` filename in the `_articles` folder. Same goes for pages.
+* Linking to other articles or pages is done by writing double brackets around the title of the linked article, e.g. `[[Writing Posts]]` links to [[Writing Posts]]
 
 That's all you need to get started! You can follow up with more details on [[Writing Posts]] and [[Markdown Syntax]].
 

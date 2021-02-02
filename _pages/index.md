@@ -12,11 +12,11 @@ No downloads or installation required, sites hosted and served through Github & 
 ## Features
 
 - Based on Jekyll, a static website generator with simple & responsive design
-- Supports Markdown or HTML notes
-- Supports Roam/Obsidian-style double bracket link syntax to other notes
-- Creates backlinks to other notes automatically
+- Supports Markdown or HTML articles
+- Supports Roam/Obsidian-style double bracket link syntax to other articles
+- Creates backlinks to other articles automatically
 - Features link previews on hover
-- Includes graph visualization of the notes and their links
+- Includes graph visualization of the articles and their links
 
 ## Effortless Launch
 

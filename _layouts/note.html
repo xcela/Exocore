@@ -13,14 +13,14 @@ layout: default
   </div>
   <hr>
   
-  <div class="notes-entry-container note">
+  <div class="articles-entry-container article">
   <div class="content">
           {% include anchor_headings.html h_min=2 h_max=3 anchorClass='anchor' bodySuffix='' html=content anchorBody="content="url("/assets/bg.gif")"" %}
    </div>
   </div>
   <hr>
 
-<div class="sidenote">
+<div class="sidearticle">
   <side>
     <h1>Interlinked pages:</h1>
       {% if page.backlinks.size > 0 %}
@@ -40,16 +40,5 @@ layout: default
       </div>
       {% endif %}
  </side>
-
- <hr> 
-
-<graph>
-<h1>Graph View:</h1>
-
-{% include notes_graph.html %}
-
-</graph>
- </div>
- <hr>
 
 </article>
