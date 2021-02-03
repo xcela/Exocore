@@ -1,0 +1,375 @@
+/* ### Theme: Yotsuba ### */
+
+/* === Base Settings === */
+
+/* --- Body Colors --- */
+
+$background: #f0e0d6;
+$color-border: none;
+$border-radius: 0px;
+$color-box-background: black;
+
+/* --- Text Colors --- */
+$color-text: #800000;
+$color-subtext: black;
+$color-code: #707070;
+$internal-links: blue;
+$external-links: #34345c;
+$invalid-links: $internal-links;
+$color-primary: #cc1105;
+$color-secondary: #117743;
+
+/* --- Font Family --- */
+$font-family-sans-serif: Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI,  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+$font-family-serif: serif;
+$font-family-monospace: ”Iosevka Term SS03”,”IBM Plex Mono”,”Fira Code”,”Fira Mono”,”Roboto Mono”,”Droid Sans Mono”,Monaco,Consolas,Courier,monospace;;
+
+/* === Body === */
+
+article {
+  background-color: $background;    
+  box-shadow: 1px 1px 0px #d9bfb7;
+}
+
+body {
+  background-color: black;
+  background-image: url("/assets/bg.gif");
+  background-repeat: repeat;
+  box-sizing: content-box;
+  font-family: $font-family-sans-serif;
+  margin: 0 auto;
+  line-height: 1.1em;
+  padding: 4vh 6vw;
+  overflow-x: hidden;
+  color: $color-text;
+  font-size: 1rem;
+  max-width: 43em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 75vh;
+  border-radius: $border-radius;
+  border: 1px #9f9922 solid;
+  width:80%;
+}
+
+blockquote {
+  padding: 1em;
+  color:#9f9922;
+  margin: 0;
+  font-size: 1em;
+}
+
+ul {
+  list-style-type: bullet;
+}
+
+hr {
+  margin:1.5em;
+  margin-bottom:0em;
+ background-color: #d9bfb7;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.4;
+  padding-bottom: 0;
+  font-size:1.15em;
+  margin:1em;
+  margin-left:1em;
+  text-align:left
+}
+
+.title-text { color:#cc1105; font-weight:bold; font-size:1.2em; line-height:1em; margin:0em; text-align:center; padding:1em; padding-bottom:0.5em; text-decoration:none !important;}
+
+h1 {color:#117743; font-weight:bold; text-decoration:underline;}
+h2 {color:#117743; font-weight:bold;}
+h3 {color:#117743; font-weight:normal; text-decoration:underline}
+h4 {text-transform:none;font-weight:strong; font-size:1em;}
+h5 {text-transform:none;font-weight:normal; text-decoration:underline; tfont-size:1em;}
+
+code {
+  color: $color-code;
+  font-family: $font-family-monospace;
+  font-size: 1em;
+}
+
+PRE {
+  margin-left: 1em;
+}
+
+*:focus {
+  background: white !important;
+  color: black !important;
+}
+
+/* -- Links -- */
+
+a {
+  color: $external-links;
+  text-decoration:underline;
+  }
+    a:hover {
+    color:red !important;
+    text-decoration: underline;
+    cursor: alias;
+  }
+      a.internal-link {
+    color: $external-links;
+       text-decoration:underline; 
+    cursor: pointer;
+      }
+      .notes-entry-container a.internal-link::before{
+      content:"»";
+      }
+.invalid-link, .invalid-link-brackets {
+  color: $invalid-links;
+  cursor: help;
+}
+
+
+nav a.intern-link::before{
+  content:""; color:blue;
+}
+
+.sidenote a, nav a {
+    font-weight: normal !important;
+    text-decoration:underline
+}
+
+.sidenote a:hover{
+    font-weight: normal !important;
+    text-decoration:underline
+}
+nav a {
+  color: blue !important;
+}
+.anchor a {
+  color: $color-text;
+  cursor: pointer;
+}
+.anchor a:hover{
+  color: $internal-links;
+  cursor: pointer;
+}
+
+.toc-container a {
+  cursor: pointer;
+}
+
+/* --- Header Anchors --- */
+.anchor {visibility: hidden; color:gray; opacity:0.7; text-decoration:none; font-size: 0.8em; font-familiy:monospace}
+.anchor:hover {text-decoration:none; color:black !important; cursor:pointer;}
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor {
+    visibility: visible;
+} 
+
+
+
+/* === Page Formatting === */
+
+.title {
+  border: $color-border; 
+  padding: 0em;
+  background-color: $background;
+  margin-bottom:0em;
+  text-align:center;
+}
+
+nav {
+  background-color: #ffffee;
+  border: $color-border; padding: 1em;
+    box-shadow: 1px 1px 0px #d9bfb7;
+ color: blue;
+ font-weight: normal; 
+ padding: 1em;
+ margin: 1em 0 1em;
+}
+
+.alignleft {
+  float: left;
+    text-align:left;
+}
+.alignright {
+  float: right;
+   text-align:right;
+}
+
+.border, .notes-entry-container {
+  border: $color-border; 
+  padding: 2em;
+  padding-top:1em;
+   @media (max-width: 700px) {
+    border:none;
+    padding:none;
+  }
+}
+
+/* -- Interlinks -- */
+
+.graph {
+  border: $color-border; padding: 2em;
+  margin:2em; line-height: 1.1em;
+}
+
+.graph-container {
+  margin:1em;
+}
+
+.sidenote{
+  max-width:28em; margin: 0 auto;
+}
+.sidenote h1{
+  margin-bottom: 1em
+}
+
+.sidenote {
+  background-color: $background;
+  border: $color-border;
+  padding: 1em;  
+  padding-top:0em;
+}
+
+.backlinks-title {
+    color:blue;
+}
+
+.sidenote a:hover{
+    font-weight: normal !important;
+    text-decoration:underline
+}
+
+.backlink-box {
+  background-color: #ffffee;
+  border: $color-border;
+      box-shadow: 1px 1px 0px #d9bfb7;
+  padding:1em;
+  line-height:1em;
+}
+
+.backnote-title {
+  display: grid; grid-gap: 0.2em; grid-template-columns: repeat(1fr);
+}
+.backlinks-excerpt{
+  font-size: 0.9em; color: $color-subtext;
+}
+.backlinks-none{
+  font-size: 0.9em; text-align:center;
+}
+
+.note {
+  border: $color-border;
+  padding:1em; padding-top:0em; 
+  background-color: $background;
+}
+.content {
+  margin-left:2em; 
+  margin-right:1em; 
+  line-height: 1.1em;
+  padding-top:0.5em;
+
+}
+.content p {
+  margin-left:1em;
+}
+
+
+/* Toggle Backlinks on Sidebar 
+.notes-entry-container {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-areas:
+    "content"
+    "side";
+  @media (min-width: 700px) {
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "content side";
+  }
+}
+*/
+
+/* Table of Contents */
+.toc-container{
+    padding:1em;
+  border: $color-border; 
+    box-shadow: 1px 1px 0px #d9bfb7;
+  background-color: #ffffee;
+  margin: 1em;
+  margin-top:2em;
+  margin: 0 auto;
+  display: block;
+  max-width: 50%;
+    @media (max-width: 700px) {
+  max-width:100%;
+  }
+}
+.toc-container h1 {
+  margin:0em;
+  color:$color-secondary;
+  text-align:center;
+  font-size:1em;
+  text-decoration:none !important;
+}
+
+.toc-container ol li  {
+  list-style-type: numeral;
+}
+
+.toc-container ol li li {
+  list-style-type: lower-latin;
+}
+
+
+
+/* -- Footer -- */ 
+
+time {
+  border: $color-border; 
+    box-shadow: 1px 1px 0px #d9bfb7;
+    background-color: $background;
+  padding: 1em;
+  display: block;
+  font-family: $font-family-monospace;
+  color: $color-subtext;
+  text-transform: uppercase;
+  font-size:1.2em;
+  text-align:center;
+}
+
+.time {
+  margin-top:1.5em;
+}
+
+.footer-nav {
+  margin:1em;
+  font-size: 0.8em;
+  color: $color-text;
+  text-align:center;
+}
+
+.footer-nav a {
+  color:white;
+}
+
+license {
+  text-align: center;
+  font-family: $font-family-monospace;
+  font: 1.1em;
+}
+
+.license {
+  border: $color-border; 
+    box-shadow: 1px 1px 0px #d9bfb7;
+    background-color: #ffffee;
+  padding: 1em;
+  display: block;
+  padding:1em; margin-top:1em; max-width: 28em; margin: 0 auto; text-align:center;
+}
+

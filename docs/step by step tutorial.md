@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Step-by-step Exocore Installation Guide
 id: Step by step guide
 published: true
@@ -77,6 +78,11 @@ Domains can be purchased from a variety of suppliers for affordable rates - a `.
 I can recommend [Google Domains](https://google.com/domains), I use it because it includes privacy protection and custom email aliases for free, and has an easy to navigate dashboard, as well as Google's very fast DNS. 
 
 For uncommon domains and more competitive prices, [Namecheap](https://namecheap.com) is reliable - it also has a solid "Beast mode" search for finding rare domains.
+
+### 1-year Free Domains for Students
+
+If you are a student, here is how you can get a 1 year free custom domain by signing up for [GitHub Education](https://education.github.com/pack?sort=popularity&tag=Domains). 
+
 
 #### Configuring a Domain Purchased Elsewhere
 
