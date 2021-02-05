@@ -24,7 +24,7 @@ No downloads or installation required, site is hosted and served through Github 
 
 This has been designed to be as easy as possible to launch onto a live host at no-charge, through hosting on Github Pages and site serving through Netlify. Files can be accessed and edited from anywhere through Github and will be automatically updated live on the site.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore/tree/feature)
 
 With a [Github account](https://github.com/join), you can use our [One-click Installation](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore) to go live in minutes and start making posts immediately.
 
