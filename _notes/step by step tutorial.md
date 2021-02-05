@@ -31,8 +31,7 @@ Continue below when you have an account ready.
 
 ## Install the Exocore template to GitHub and Netlify
 
-Open our [One-click installation](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore): [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore)
-
+Open our [One-click installation](https://app.netlify.com/start/deploy?repository=https://github.com/xcela/exocore).
 
 Steps:
 1. Select `Connect to Github`
