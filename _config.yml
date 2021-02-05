@@ -3,10 +3,10 @@ url:                 site-name.domain
 include:             
   - ~daily
   - ~journal
-  - ~notes
   - ~pages
-  - ~posts
-  exclude:             ['_includes/notes_graph.json']
+  - ~site
+  - ~zk
+  exclude:            
 baseurl:             /
 
 # If you are using a host that cannot resolve URLs that do
@@ -22,7 +22,7 @@ plugins:
  # - jekyll-readme-index
     # Generate an index of posts as README.md file 
  # - jekyll-feed
-    # Generate Atom feed of posts, automattic [feed.xml]
+    # Generate Atom feed of posts, automatic [feed.xml]
  # - jekyll-pdf-embed
     # PDF Embed, code: {% pdf "pdf-url" %}
  # - jekyll-sitemap
@@ -33,7 +33,6 @@ plugins:
     # Analytics integrations; config at jekyll_analytics below
 sass:
   sass_dir:          _sass
-  style:            :compressed
 
 collections:
   notes:
@@ -46,25 +45,25 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "_notes/**/*.md"
-    values:
-      layout: "note"
-  - scope:
-      path: "_journal/**/*.md"
-    values:
-      layout: "journal"
-  - scope:
-      path: "_daily/**/*.md"
+      path: "~daily/**/*.md"
     values:
       layout: "daily"
   - scope:
-      path: "_pages/**/*.md"
+      path: "~journal/**/*.md"
+    values:
+      layout: "journal"
+  - scope:
+      path: "~pages/**/*.md"
     values:
       layout: "page"
   - scope:
-      path: "_main/**/*.md"
+      path: "~site/**/*.md"
     values:
-      layout: "main"
+      layout: "site"
+  - scope:
+      path: "~zk/**/*.md"
+    values:
+      layout: "zk"
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics

@@ -1,16 +1,8 @@
+## Daily
+Daily surf dumps.
+Theme: Gemini
 
-
-4 templates.
-
-## Notes
-Zettalkasten.
-Theme: Yotsuba
-
-Index: Graph node.
-Secondary: tags.
-
-Anchors, backlinks (at top), tags, hover, footnotes, next/prev.
--- side/margin notes (== Footnotes/asides), sections, comments, webmentions, related
+Tags, next/prev, side/margin notes.
 
 ## Journal
 Longform, blog.
@@ -36,8 +28,15 @@ Anchors, backlinks (at end), tags, hover, next/prev, related posts, margin notes
 + Webmentions
 -- sidenotes (== sectioned footnotes)
 
-## Daily
-Daily surf dumps.
-Theme: Gemini
+## Zk
+Zettalkasten.
+Theme: Yotsuba
 
-Tags, next/prev, side/margin notes.
+Index: Graph node.
+Secondary: tags.
+
+Anchors, backlinks (at top), tags, hover, footnotes, next/prev.
+-- side/margin notes (== Footnotes/asides), sections, comments, webmentions, related
+
+![](https://res.cloudinary.com/lesswrong-2-0/image/upload/v1568584395/Zettelkasten_4_svg_x0rcja.svg)
+
