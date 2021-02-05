@@ -186,11 +186,11 @@ h6:hover > a.anchor {
 nav {
   background-color: #ffffee;
   border: $color-border; padding: 1em;
-    box-shadow: 1px 1px 0px #d9bfb7;
- color: blue;
- font-weight: normal; 
- padding: 1em;
- margin: 1em 0 1em;
+  box-shadow: 1px 1px 0px #d9bfb7;
+  color: blue;
+  font-weight: normal; 
+  padding: 1em;
+  margin: 1em 0 1em;
 }
 
 .alignleft {
@@ -200,6 +200,11 @@ nav {
 .alignright {
   float: right;
    text-align:right;
+}
+.bottomright{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .border, .notes-entry-container {
