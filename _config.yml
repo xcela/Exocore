@@ -2,6 +2,7 @@ title:               My Exocortex
 url:                 site-name.domain
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 include:             
   - ~daily
   - ~journal
@@ -23,6 +24,10 @@ exclude:             ['_includes/notes_graph.json']
   - ~posts
   exclude:             ['_includes/notes_graph.json']
 >>>>>>> parent of c80c501... .
+=======
+include:             ['_pages']
+exclude:             ['_includes/notes_graph.json']
+>>>>>>> parent of 7400d84... .
 baseurl:             /
 
 # If you are using a host that cannot resolve URLs that do
@@ -70,6 +75,7 @@ defaults:
       layout: "daily"
 =======
       layout: "note"
+<<<<<<< HEAD
 >>>>>>> parent of c80c501... .
   - scope:
       path: "_journal/**/*.md"
@@ -97,6 +103,8 @@ defaults:
 =======
       layout: "main"
 >>>>>>> parent of c80c501... .
+=======
+>>>>>>> parent of 7400d84... .
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
