@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/37e37752-3cf8-4497-bbc8-0f3c9d6f372d/deploy-status)](https://app.netlify.com/sites/exocore/deploys)
+
 # Public Markdown Exocortex
 
 Preconfigured template to roll out your own no-code, no-cost public exocortex from documents written in simple Markdown syntax, including interlinking, generated backlinks and a nodal graph-rendering. Site's are rendered in fast, responsive, standards-compliant static HTML.
