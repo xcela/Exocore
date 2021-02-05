@@ -5,7 +5,9 @@ url:                 site-name.domain
 include:             
   - ~daily
   - ~journal
+  - ~notes
   - ~pages
+<<<<<<< HEAD
   - ~site
   - ~zk
   exclude:            
@@ -17,6 +19,10 @@ exclude:             ['_includes/notes_graph.json']
 include:             ['_pages']
 exclude:             ['_includes/notes_graph.json']
 >>>>>>> parent of 7400d84... .
+=======
+  - ~posts
+  exclude:             ['_includes/notes_graph.json']
+>>>>>>> parent of c80c501... .
 baseurl:             /
 
 # If you are using a host that cannot resolve URLs that do
@@ -32,7 +38,7 @@ plugins:
  # - jekyll-readme-index
     # Generate an index of posts as README.md file 
  # - jekyll-feed
-    # Generate Atom feed of posts, automatic [feed.xml]
+    # Generate Atom feed of posts, automattic [feed.xml]
  # - jekyll-pdf-embed
     # PDF Embed, code: {% pdf "pdf-url" %}
  # - jekyll-sitemap
@@ -43,6 +49,7 @@ plugins:
     # Analytics integrations; config at jekyll_analytics below
 sass:
   sass_dir:          _sass
+  style:            :compressed
 
 collections:
   notes:
@@ -55,26 +62,31 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "~daily/**/*.md"
+      path: "_notes/**/*.md"
     values:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       layout: "daily"
+=======
+      layout: "note"
+>>>>>>> parent of c80c501... .
   - scope:
-      path: "~journal/**/*.md"
+      path: "_journal/**/*.md"
     values:
       layout: "journal"
   - scope:
-      path: "~pages/**/*.md"
+      path: "_daily/**/*.md"
+    values:
+      layout: "daily"
+  - scope:
+      path: "_pages/**/*.md"
     values:
       layout: "page"
   - scope:
-      path: "~site/**/*.md"
+      path: "_main/**/*.md"
     values:
-      layout: "site"
-  - scope:
-      path: "~zk/**/*.md"
-    values:
+<<<<<<< HEAD
       layout: "zk"
 =======
       layout: "note"
@@ -82,6 +94,9 @@ defaults:
 =======
       layout: "note"
 >>>>>>> parent of 7400d84... .
+=======
+      layout: "main"
+>>>>>>> parent of c80c501... .
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
