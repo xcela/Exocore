@@ -1,6 +1,5 @@
 ---
 Title: Changing Themes
-layout: post
 ---
 
 A few themes have been provided in the standard install:

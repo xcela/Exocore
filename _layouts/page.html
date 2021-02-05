@@ -3,10 +3,11 @@ layout: default
 ---
 
 <article>
-  <div class="title">
+ <div class="title">
     <h1 class="title-text">{{ page.title }}</h1>
   </div>
 
+<<<<<<< HEAD
   <div class="content toc-container">
           <h1 class="toc-header">Table of Contents</h1>
          {% include toc.html html=content sanitize=true ordered=true class="inline_toc" id="my_toc" h_min=1 h_max=4 %}
@@ -43,5 +44,14 @@ layout: default
 
  </div>
  
+=======
+ <div class="note page">
+<content id="note">
+	<div class="content">
+  {{ content }}
+ 	 </div>
+</content>
+</div>
+>>>>>>> parent of 7400d84... .
 
 </article>

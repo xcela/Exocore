@@ -1,5 +1,4 @@
 ---
-layout: post
 Title: Site Customization
 ---
 
