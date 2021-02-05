@@ -1,6 +1,7 @@
 title:               My Exocortex
 url:                 site-name.domain
 <<<<<<< HEAD
+<<<<<<< HEAD
 include:             
   - ~daily
   - ~journal
@@ -8,6 +9,10 @@ include:
   - ~site
   - ~zk
   exclude:            
+=======
+include:             ['_pages']
+exclude:             ['_includes/notes_graph.json']
+>>>>>>> parent of 7400d84... .
 =======
 include:             ['_pages']
 exclude:             ['_includes/notes_graph.json']
@@ -53,6 +58,7 @@ defaults:
       path: "~daily/**/*.md"
     values:
 <<<<<<< HEAD
+<<<<<<< HEAD
       layout: "daily"
   - scope:
       path: "~journal/**/*.md"
@@ -70,6 +76,9 @@ defaults:
       path: "~zk/**/*.md"
     values:
       layout: "zk"
+=======
+      layout: "note"
+>>>>>>> parent of 7400d84... .
 =======
       layout: "note"
 >>>>>>> parent of 7400d84... .
