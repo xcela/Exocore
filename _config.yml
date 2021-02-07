@@ -1,6 +1,6 @@
 title:               My Exocortex
 url:                 site-name.domain
-include:             [~daily, ~journal, ~pages, ~site, ~zk]
+include:             
 exclude:             
 baseurl:             /
 
