@@ -171,6 +171,12 @@ nav {
    text-align:right;
 }
 
+.bottomright{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .border, .notes-entry-container {
   border: $color-border; 
   padding: 2em;
