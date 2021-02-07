@@ -1,7 +1,12 @@
 title:               My Exocortex
 url:                 site-name.domain
-include:             ['_pages']
-exclude:             ['_includes/notes_graph.json']
+include:             
+  - ~daily
+  - ~journal
+  - ~pages
+  - ~site
+  - ~zk
+exclude:             
 baseurl:             /
 
 # If you are using a host that cannot resolve URLs that do
@@ -28,7 +33,6 @@ plugins:
     # Analytics integrations; config at jekyll_analytics below
 sass:
   sass_dir:          _sass
-  style:            :compressed
 
 collections:
   notes:
@@ -41,7 +45,7 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "_notes/**/*.md"
+      path: "~journal/**/*.md"
     values:
       layout: "note"
 
